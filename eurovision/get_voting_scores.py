@@ -16,7 +16,7 @@ def import_and_clean(filename):
     """
     # read in xlsx
     df_input = pd.read_excel(filename)
-    df = df_input[df_input['Year'] > 1998]
+    df = df_input[df_input['Year'] > 1997]
     df = df.loc[df['(semi-) final'] == 'f'] # Finals only
     df = df.drop_duplicates()
 
