@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 from wikipeople import wikipeople as wp # use wp to get the gender data as needed. 
 import re
@@ -85,13 +83,16 @@ def get_artist_gender(search):
     return gender
 
 def final_fixes(df):
-    # group into gender fluid
+    # group remaining categories accordingly
     idx = np.where(
-        (df['Gender'] == "trans woman") |
         (df['Gender'] == "genderfluid") |
         (df['Gender'] == "non-binary")
     )
-    df.loc[idx[0], "Gender"] = "gender-fluid"
+    df.loc[idx[0], "Gender"] = "non-binary"
+    idx = np.where(
+        df['Gender'] == "trans woman"
+    )
+    df.loc[idx[0], "Gender"] = "female"
 
     # clear up male organism item
     idx = np.where(
@@ -110,6 +111,7 @@ def final_fixes(df):
     df.loc[df["Artist"] == "ZAA Sanja Vučić", "Gender"] = "female"
     df.loc[df["Artist"] == "Julia Samoylova", "Gender"] = "female"
     df.loc[df["Artist"] == "Amanda Georgiadi Tenfjord", "Gender"] = "female"
+    df.loc[df["Artist"] == "Prime Minister", "Gender"] = "group"
     
     # sanity check 
     assert len(df.loc[df["Gender"] == "NA"]) == 0, "NA genders > 0"
@@ -136,10 +138,8 @@ def main():
     
     df2["Gender"] = genders
     df3 = final_fixes(df2)
-    df3.to_json('data/eurovision-lyrics-2022-Gender.json', orient = 'index')
+    df3.to_csv('data/eurovision-lyrics-2022-Gender.csv')
 
-    
 
 if __name__ == "__main__":
     main()
-    
