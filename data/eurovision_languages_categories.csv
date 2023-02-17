@@ -1,0 +1,915 @@
+,Year,Country,Language,Own,English,Other
+0,1998.0,Croatia,Croatian,1,0,0
+1,1999.0,Croatia,Croatian,1,0,0
+2,2000.0,Croatia,Croatian,1,0,0
+3,2005.0,Croatia,Croatian,1,0,0
+4,2008.0,Croatia,Croatian,1,0,0
+5,2009.0,Croatia,Croatian,1,0,0
+6,2010.0,Croatia,Croatian,1,0,0
+7,2012.0,Croatia,Croatian,1,0,0
+8,2013.0,Croatia,Croatian,1,0,0
+9,2020.0,Croatia,Croatian,1,0,0
+10,1998.0,Greece,Greek,1,0,0
+11,2010.0,Greece,Greek,1,0,0
+12,2018.0,Greece,Greek,1,0,0
+13,1998.0,France,French,1,0,0
+14,1999.0,France,French,1,0,0
+15,2000.0,France,French,1,0,0
+16,2002.0,France,French,1,0,0
+17,2003.0,France,French,1,0,0
+18,2005.0,France,French,1,0,0
+19,2006.0,France,French,1,0,0
+20,2009.0,France,French,1,0,0
+21,2013.0,France,French,1,0,0
+22,2015.0,France,French,1,0,0
+23,2018.0,France,French,1,0,0
+24,2021.0,France,French,1,0,0
+25,1998.0,Spain,Spanish,1,0,0
+26,1999.0,Spain,Spanish,1,0,0
+27,2000.0,Spain,Spanish,1,0,0
+28,2001.0,Spain,Spanish,1,0,0
+29,2003.0,Spain,Spanish,1,0,0
+30,2004.0,Spain,Spanish,1,0,0
+31,2005.0,Spain,Spanish,1,0,0
+32,2009.0,Spain,Spanish,1,0,0
+33,2010.0,Spain,Spanish,1,0,0
+34,2011.0,Spain,Spanish,1,0,0
+35,2012.0,Spain,Spanish,1,0,0
+36,2015.0,Spain,Spanish,1,0,0
+37,2018.0,Spain,Spanish,1,0,0
+38,2019.0,Spain,Spanish,1,0,0
+39,2020.0,Spain,Spanish,1,0,0
+40,2021.0,Spain,Spanish,1,0,0
+41,1998.0,Switzerland,German,1,0,0
+42,1998.0,Slovakia,Slovak,1,0,0
+43,2009.0,Slovakia,Slovak,1,0,0
+44,2010.0,Slovakia,Slovak,1,0,0
+45,1998.0,Poland,Polish,1,0,0
+46,1999.0,Poland,Polish,1,0,0
+47,2011.0,Poland,Polish,1,0,0
+48,1998.0,Israel,Hebrew,1,0,0
+49,2001.0,Israel,Hebrew,1,0,0
+50,2010.0,Israel,Hebrew,1,0,0
+51,2013.0,Israel,Hebrew,1,0,0
+52,1998.0,Germany,German,1,0,0
+53,1998.0,Malta,English,1,1,0
+54,1999.0,Malta,English,1,1,0
+55,2001.0,Malta,English,1,1,0
+56,2002.0,Malta,English,1,1,0
+57,2003.0,Malta,English,1,1,0
+58,2004.0,Malta,English,1,1,0
+59,2005.0,Malta,English,1,1,0
+60,2006.0,Malta,English,1,1,0
+61,2007.0,Malta,English,1,1,0
+62,2009.0,Malta,English,1,1,0
+63,2010.0,Malta,English,1,1,0
+64,2011.0,Malta,English,1,1,0
+65,2012.0,Malta,English,1,1,0
+66,2013.0,Malta,English,1,1,0
+67,2014.0,Malta,English,1,1,0
+68,2015.0,Malta,English,1,1,0
+69,2016.0,Malta,English,1,1,0
+70,2017.0,Malta,English,1,1,0
+71,2018.0,Malta,English,1,1,0
+72,2019.0,Malta,English,1,1,0
+73,2020.0,Malta,English,1,1,0
+74,2022.0,Malta,English,1,1,0
+75,1998.0,Hungary,Hungarian,1,0,0
+76,2005.0,Hungary,Hungarian,1,0,0
+77,2013.0,Hungary,Hungarian,1,0,0
+78,2018.0,Hungary,Hungarian,1,0,0
+79,2019.0,Hungary,Hungarian,1,0,0
+80,1998.0,Slovenia,Slovene,1,0,0
+81,2002.0,Slovenia,Slovene,1,0,0
+82,2005.0,Slovenia,Slovene,1,0,0
+83,2007.0,Slovenia,Slovene,1,0,0
+84,2008.0,Slovenia,Slovene,1,0,0
+85,2010.0,Slovenia,Slovene,1,0,0
+86,2012.0,Slovenia,Slovene,1,0,0
+87,2019.0,Slovenia,Slovene,1,0,0
+88,1998.0,Ireland,English,1,1,0
+89,1999.0,Ireland,English,1,1,0
+90,2000.0,Ireland,English,1,1,0
+91,2001.0,Ireland,English,1,1,0
+92,2003.0,Ireland,English,1,1,0
+93,2004.0,Ireland,English,1,1,0
+94,2005.0,Ireland,English,1,1,0
+95,2006.0,Ireland,English,1,1,0
+96,2007.0,Ireland,English,1,1,0
+97,2010.0,Ireland,English,1,1,0
+98,2011.0,Ireland,English,1,1,0
+99,2012.0,Ireland,English,1,1,0
+100,2013.0,Ireland,English,1,1,0
+101,2014.0,Ireland,English,1,1,0
+102,2015.0,Ireland,English,1,1,0
+103,2016.0,Ireland,English,1,1,0
+104,2017.0,Ireland,English,1,1,0
+105,2018.0,Ireland,English,1,1,0
+106,2019.0,Ireland,English,1,1,0
+107,2020.0,Ireland,English,1,1,0
+108,2021.0,Ireland,English,1,1,0
+109,2022.0,Ireland,English,1,1,0
+110,1998.0,Portugal,Portuguese,1,0,0
+111,1999.0,Portugal,Portuguese,1,0,0
+112,2001.0,Portugal,Portuguese,1,0,0
+113,2004.0,Portugal,Portuguese,1,0,0
+114,2008.0,Portugal,Portuguese,1,0,0
+115,2009.0,Portugal,Portuguese,1,0,0
+116,2010.0,Portugal,Portuguese,1,0,0
+117,2011.0,Portugal,Portuguese,1,0,0
+118,2012.0,Portugal,Portuguese,1,0,0
+119,2014.0,Portugal,Portuguese,1,0,0
+120,2015.0,Portugal,Portuguese,1,0,0
+121,2017.0,Portugal,Portuguese,1,0,0
+122,2018.0,Portugal,Portuguese,1,0,0
+123,2019.0,Portugal,Portuguese,1,0,0
+124,2020.0,Portugal,Portuguese,1,0,0
+125,1998.0,Romania,Romanian,1,0,0
+126,1998.0,United Kingdom,English,1,1,0
+127,1999.0,United Kingdom,English,1,1,0
+128,2000.0,United Kingdom,English,1,1,0
+129,2001.0,United Kingdom,English,1,1,0
+130,2002.0,United Kingdom,English,1,1,0
+131,2003.0,United Kingdom,English,1,1,0
+132,2004.0,United Kingdom,English,1,1,0
+133,2005.0,United Kingdom,English,1,1,0
+134,2006.0,United Kingdom,English,1,1,0
+135,2007.0,United Kingdom,English,1,1,0
+136,2008.0,United Kingdom,English,1,1,0
+137,2009.0,United Kingdom,English,1,1,0
+138,2010.0,United Kingdom,English,1,1,0
+139,2011.0,United Kingdom,English,1,1,0
+140,2012.0,United Kingdom,English,1,1,0
+141,2013.0,United Kingdom,English,1,1,0
+142,2014.0,United Kingdom,English,1,1,0
+143,2015.0,United Kingdom,English,1,1,0
+144,2016.0,United Kingdom,English,1,1,0
+145,2017.0,United Kingdom,English,1,1,0
+146,2018.0,United Kingdom,English,1,1,0
+147,2019.0,United Kingdom,English,1,1,0
+148,2020.0,United Kingdom,English,1,1,0
+149,2021.0,United Kingdom,English,1,1,0
+150,2022.0,United Kingdom,English,1,1,0
+151,1998.0,Cyprus,Greek,1,0,0
+152,1999.0,Cyprus,Greek,1,0,0
+153,2011.0,Cyprus,Greek,1,0,0
+154,2013.0,Cyprus,Greek,1,0,0
+155,1998.0,Netherlands,Dutch,1,0,0
+156,2010.0,Netherlands,Dutch,1,0,0
+157,1998.0,Sweden,Swedish,1,0,0
+158,1998.0,Belgium,French,1,0,0
+159,2000.0,Belgium,French,1,0,0
+160,2005.0,Belgium,French,1,0,0
+161,1998.0,Finland,Finnish,1,0,0
+162,2008.0,Finland,Finnish,1,0,0
+163,2015.0,Finland,Finnish,1,0,0
+164,1998.0,Norway,Norwegian,1,0,0
+165,2006.0,Norway,Norwegian,1,0,0
+166,1998.0,Estonia,Estonian,1,0,0
+167,2009.0,Estonia,Estonian,1,0,0
+168,2012.0,Estonia,Estonian,1,0,0
+169,2013.0,Estonia,Estonian,1,0,0
+170,1998.0,Turkey,Turkish,1,0,0
+171,1999.0,Turkey,Turkish,1,0,0
+172,2005.0,Turkey,Turkish,1,0,0
+173,2008.0,Turkey,Turkish,1,0,0
+174,1998.0,Macedonia,Macedonian,1,0,0
+175,2002.0,Macedonia,Macedonian,1,0,0
+176,2009.0,Macedonia,Macedonian,1,0,0
+177,2010.0,Macedonia,Macedonian,1,0,0
+178,2012.0,Macedonia,Macedonian,1,0,0
+179,2016.0,Macedonia,Macedonian,1,0,0
+180,1999.0,Lithuania,Samogitian,0,0,1
+181,1999.0,Belgium,English,0,1,0
+182,2002.0,Belgium,English,0,1,0
+183,2004.0,Belgium,English,0,1,0
+184,2007.0,Belgium,English,0,1,0
+185,2009.0,Belgium,English,0,1,0
+186,2010.0,Belgium,English,0,1,0
+187,2011.0,Belgium,English,0,1,0
+188,2012.0,Belgium,English,0,1,0
+189,2013.0,Belgium,English,0,1,0
+190,2014.0,Belgium,English,0,1,0
+191,2015.0,Belgium,English,0,1,0
+192,2016.0,Belgium,English,0,1,0
+193,2017.0,Belgium,English,0,1,0
+194,2018.0,Belgium,English,0,1,0
+195,2019.0,Belgium,English,0,1,0
+196,2020.0,Belgium,English,0,1,0
+197,2021.0,Belgium,English,0,1,0
+198,2022.0,Belgium,English,0,1,0
+199,1999.0,Slovenia,English,0,1,0
+200,2001.0,Slovenia,English,0,1,0
+201,2003.0,Slovenia,English,0,1,0
+202,2004.0,Slovenia,English,0,1,0
+203,2006.0,Slovenia,English,0,1,0
+204,2011.0,Slovenia,English,0,1,0
+205,2013.0,Slovenia,English,0,1,0
+206,2015.0,Slovenia,English,0,1,0
+207,2016.0,Slovenia,English,0,1,0
+208,2017.0,Slovenia,English,0,1,0
+209,2021.0,Slovenia,English,0,1,0
+210,1999.0,Norway,English,0,1,0
+211,2000.0,Norway,English,0,1,0
+212,2001.0,Norway,English,0,1,0
+213,2003.0,Norway,English,0,1,0
+214,2004.0,Norway,English,0,1,0
+215,2005.0,Norway,English,0,1,0
+216,2008.0,Norway,English,0,1,0
+217,2009.0,Norway,English,0,1,0
+218,2010.0,Norway,English,0,1,0
+219,2012.0,Norway,English,0,1,0
+220,2013.0,Norway,English,0,1,0
+221,2014.0,Norway,English,0,1,0
+222,2015.0,Norway,English,0,1,0
+223,2016.0,Norway,English,0,1,0
+224,2017.0,Norway,English,0,1,0
+225,2018.0,Norway,English,0,1,0
+226,2020.0,Norway,English,0,1,0
+227,2021.0,Norway,English,0,1,0
+228,2022.0,Norway,English,0,1,0
+229,1999.0,Denmark,English,0,1,0
+230,2000.0,Denmark,English,0,1,0
+231,2001.0,Denmark,English,0,1,0
+232,2002.0,Denmark,English,0,1,0
+233,2004.0,Denmark,English,0,1,0
+234,2005.0,Denmark,English,0,1,0
+235,2006.0,Denmark,English,0,1,0
+236,2007.0,Denmark,English,0,1,0
+237,2008.0,Denmark,English,0,1,0
+238,2009.0,Denmark,English,0,1,0
+239,2010.0,Denmark,English,0,1,0
+240,2011.0,Denmark,English,0,1,0
+241,2013.0,Denmark,English,0,1,0
+242,2014.0,Denmark,English,0,1,0
+243,2015.0,Denmark,English,0,1,0
+244,2016.0,Denmark,English,0,1,0
+245,2017.0,Denmark,English,0,1,0
+246,2020.0,Denmark,English,0,1,0
+247,2022.0,Denmark,English,0,1,0
+248,1999.0,Netherlands,English,0,1,0
+249,2000.0,Netherlands,English,0,1,0
+250,2001.0,Netherlands,English,0,1,0
+251,2003.0,Netherlands,English,0,1,0
+252,2004.0,Netherlands,English,0,1,0
+253,2005.0,Netherlands,English,0,1,0
+254,2007.0,Netherlands,English,0,1,0
+255,2008.0,Netherlands,English,0,1,0
+256,2009.0,Netherlands,English,0,1,0
+257,2011.0,Netherlands,English,0,1,0
+258,2012.0,Netherlands,English,0,1,0
+259,2013.0,Netherlands,English,0,1,0
+260,2014.0,Netherlands,English,0,1,0
+261,2015.0,Netherlands,English,0,1,0
+262,2016.0,Netherlands,English,0,1,0
+263,2017.0,Netherlands,English,0,1,0
+264,2018.0,Netherlands,English,0,1,0
+265,2019.0,Netherlands,English,0,1,0
+266,1999.0,Iceland,English,0,1,0
+267,2000.0,Iceland,English,0,1,0
+268,2001.0,Iceland,English,0,1,0
+269,2003.0,Iceland,English,0,1,0
+270,2004.0,Iceland,English,0,1,0
+271,2005.0,Iceland,English,0,1,0
+272,2006.0,Iceland,English,0,1,0
+273,2007.0,Iceland,English,0,1,0
+274,2008.0,Iceland,English,0,1,0
+275,2009.0,Iceland,English,0,1,0
+276,2011.0,Iceland,English,0,1,0
+277,2012.0,Iceland,English,0,1,0
+278,2014.0,Iceland,English,0,1,0
+279,2015.0,Iceland,English,0,1,0
+280,2016.0,Iceland,English,0,1,0
+281,2017.0,Iceland,English,0,1,0
+282,2018.0,Iceland,English,0,1,0
+283,2020.0,Iceland,English,0,1,0
+284,2021.0,Iceland,English,0,1,0
+285,1999.0,Sweden,English,0,1,0
+286,2000.0,Sweden,English,0,1,0
+287,2001.0,Sweden,English,0,1,0
+288,2002.0,Sweden,English,0,1,0
+289,2003.0,Sweden,English,0,1,0
+290,2004.0,Sweden,English,0,1,0
+291,2005.0,Sweden,English,0,1,0
+292,2006.0,Sweden,English,0,1,0
+293,2007.0,Sweden,English,0,1,0
+294,2008.0,Sweden,English,0,1,0
+295,2010.0,Sweden,English,0,1,0
+296,2011.0,Sweden,English,0,1,0
+297,2012.0,Sweden,English,0,1,0
+298,2013.0,Sweden,English,0,1,0
+299,2014.0,Sweden,English,0,1,0
+300,2015.0,Sweden,English,0,1,0
+301,2016.0,Sweden,English,0,1,0
+302,2017.0,Sweden,English,0,1,0
+303,2018.0,Sweden,English,0,1,0
+304,2019.0,Sweden,English,0,1,0
+305,2020.0,Sweden,English,0,1,0
+306,2021.0,Sweden,English,0,1,0
+307,2022.0,Sweden,English,0,1,0
+308,1999.0,Austria,English,0,1,0
+309,2000.0,Austria,English,0,1,0
+310,2002.0,Austria,English,0,1,0
+311,2007.0,Austria,English,0,1,0
+312,2011.0,Austria,English,0,1,0
+313,2013.0,Austria,English,0,1,0
+314,2014.0,Austria,English,0,1,0
+315,2015.0,Austria,English,0,1,0
+316,2017.0,Austria,English,0,1,0
+317,2018.0,Austria,English,0,1,0
+318,2019.0,Austria,English,0,1,0
+319,2020.0,Austria,English,0,1,0
+320,2021.0,Austria,English,0,1,0
+321,2022.0,Austria,English,0,1,0
+322,1999.0,Israel,Hebrew/English,0,0,1
+323,2002.0,Israel,Hebrew/English,0,0,1
+324,2004.0,Israel,Hebrew/English,0,0,1
+325,2005.0,Israel,Hebrew/English,0,0,1
+326,2006.0,Israel,Hebrew/English,0,0,1
+327,2008.0,Israel,Hebrew/English,0,0,1
+328,2011.0,Israel,Hebrew/English,0,0,1
+329,1999.0,Germany,German/Turkish/ English (Hebrew),0,0,1
+330,1999.0,Bosnia and Herzegovina,Bosnian/French,0,0,1
+331,1999.0,Estonia,English,1,1,0
+332,2000.0,Estonia,English,1,1,0
+333,2001.0,Estonia,English,1,1,0
+334,2002.0,Estonia,English,1,1,0
+335,2003.0,Estonia,English,1,1,0
+336,2005.0,Estonia,English,1,1,0
+337,2006.0,Estonia,English,1,1,0
+338,2007.0,Estonia,English,1,1,0
+339,2010.0,Estonia,English,1,1,0
+340,2011.0,Estonia,English,1,1,0
+341,2014.0,Estonia,English,1,1,0
+342,2015.0,Estonia,English,1,1,0
+343,2016.0,Estonia,English,1,1,0
+344,2017.0,Estonia,English,1,1,0
+345,2019.0,Estonia,English,1,1,0
+346,2020.0,Estonia,English,1,1,0
+347,2021.0,Estonia,English,1,1,0
+348,2022.0,Estonia,English,1,1,0
+349,2000.0,Israel,Hebrew (English),0,0,1
+350,2000.0,Romania,English,0,1,0
+351,2002.0,Romania,English,0,1,0
+352,2003.0,Romania,English,0,1,0
+353,2004.0,Romania,English,0,1,0
+354,2005.0,Romania,English,0,1,0
+355,2009.0,Romania,English,0,1,0
+356,2010.0,Romania,English,0,1,0
+357,2011.0,Romania,English,0,1,0
+358,2013.0,Romania,English,0,1,0
+359,2014.0,Romania,English,0,1,0
+360,2017.0,Romania,English,0,1,0
+361,2018.0,Romania,English,0,1,0
+362,2019.0,Romania,English,0,1,0
+363,2020.0,Romania,English,0,1,0
+364,2021.0,Romania,English,0,1,0
+365,2000.0,Malta,English (Maltese),0,0,1
+366,2000.0,Russia,English,0,1,0
+367,2001.0,Russia,English,0,1,0
+368,2002.0,Russia,English,0,1,0
+369,2004.0,Russia,English,0,1,0
+370,2005.0,Russia,English,0,1,0
+371,2006.0,Russia,English,0,1,0
+372,2007.0,Russia,English,0,1,0
+373,2008.0,Russia,English,0,1,0
+374,2010.0,Russia,English,0,1,0
+375,2013.0,Russia,English,0,1,0
+376,2014.0,Russia,English,0,1,0
+377,2015.0,Russia,English,0,1,0
+378,2016.0,Russia,English,0,1,0
+379,2018.0,Russia,English,0,1,0
+380,2019.0,Russia,English,0,1,0
+381,2000.0,Cyprus,Greek/Italian,0,0,1
+382,2000.0,Germany,German/English,0,0,1
+383,2001.0,Germany,German/English,0,0,1
+384,2007.0,Germany,German/English,0,0,1
+385,2000.0,Switzerland,Italian,1,0,0
+386,2008.0,Switzerland,Italian,1,0,0
+387,2000.0,Macedonia,Macedonian/English,0,0,1
+388,2007.0,Macedonia,Macedonian/English,0,0,1
+389,2000.0,Finland,English,0,1,0
+390,2002.0,Finland,English,0,1,0
+391,2004.0,Finland,English,0,1,0
+392,2005.0,Finland,English,0,1,0
+393,2006.0,Finland,English,0,1,0
+394,2007.0,Finland,English,0,1,0
+395,2009.0,Finland,English,0,1,0
+396,2011.0,Finland,English,0,1,0
+397,2013.0,Finland,English,0,1,0
+398,2014.0,Finland,English,0,1,0
+399,2016.0,Finland,English,0,1,0
+400,2017.0,Finland,English,0,1,0
+401,2018.0,Finland,English,0,1,0
+402,2019.0,Finland,English,0,1,0
+403,2020.0,Finland,English,0,1,0
+404,2021.0,Finland,English,0,1,0
+405,2022.0,Finland,English,0,1,0
+406,2000.0,Latvia,English,0,1,0
+407,2001.0,Latvia,English,0,1,0
+408,2002.0,Latvia,English,0,1,0
+409,2003.0,Latvia,English,0,1,0
+410,2006.0,Latvia,English,0,1,0
+411,2008.0,Latvia,English,0,1,0
+412,2010.0,Latvia,English,0,1,0
+413,2011.0,Latvia,English,0,1,0
+414,2012.0,Latvia,English,0,1,0
+415,2013.0,Latvia,English,0,1,0
+416,2015.0,Latvia,English,0,1,0
+417,2016.0,Latvia,English,0,1,0
+418,2017.0,Latvia,English,0,1,0
+419,2018.0,Latvia,English,0,1,0
+420,2019.0,Latvia,English,0,1,0
+421,2020.0,Latvia,English,0,1,0
+422,2021.0,Latvia,English,0,1,0
+423,2022.0,Latvia,English,0,1,0
+424,2000.0,Turkey,Turkish/English,0,0,1
+425,2001.0,Turkey,Turkish/English,0,0,1
+426,2002.0,Turkey,Turkish/English,0,0,1
+427,2006.0,Turkey,Turkish/English,0,0,1
+428,2001.0,Bosnia and Herzegovina,Bosnian/English,0,0,1
+429,2001.0,Lithuania,English/Lithuanian (German/French),0,0,1
+430,2001.0,Croatia,English,0,1,0
+431,2002.0,Croatia,English,0,1,0
+432,2004.0,Croatia,English,0,1,0
+433,2011.0,Croatia,English,0,1,0
+434,2016.0,Croatia,English,0,1,0
+435,2018.0,Croatia,English,0,1,0
+436,2022.0,Croatia,English,0,1,0
+437,2001.0,France,French/English,0,0,1
+438,2012.0,France,French/English,0,0,1
+439,2016.0,France,French/English,0,0,1
+440,2017.0,France,French/English,0,0,1
+441,2020.0,France,French/English,0,0,1
+442,2001.0,Poland,English,0,1,0
+443,2007.0,Poland,English,0,1,0
+444,2008.0,Poland,English,0,1,0
+445,2009.0,Poland,English,0,1,0
+446,2015.0,Poland,English,0,1,0
+447,2016.0,Poland,English,0,1,0
+448,2017.0,Poland,English,0,1,0
+449,2018.0,Poland,English,0,1,0
+450,2020.0,Poland,English,0,1,0
+451,2021.0,Poland,English,0,1,0
+452,2022.0,Poland,English,0,1,0
+453,2001.0,Greece,Greek/English,0,0,1
+454,2002.0,Cyprus,English,1,1,0
+455,2003.0,Cyprus,English,1,1,0
+456,2004.0,Cyprus,English,1,1,0
+457,2006.0,Cyprus,English,1,1,0
+458,2009.0,Cyprus,English,1,1,0
+459,2010.0,Cyprus,English,1,1,0
+460,2012.0,Cyprus,English,1,1,0
+461,2015.0,Cyprus,English,1,1,0
+462,2017.0,Cyprus,English,1,1,0
+463,2019.0,Cyprus,English,1,1,0
+464,2020.0,Cyprus,English,1,1,0
+465,2021.0,Cyprus,English,1,1,0
+466,2002.0,Greece,English (title Greek),0,0,1
+467,2007.0,Greece,English (title Greek),0,0,1
+468,2002.0,Spain,Spanish (title English),0,0,1
+469,2002.0,Switzerland,French,1,0,0
+470,2010.0,Switzerland,French,1,0,0
+471,2020.0,Switzerland,French,1,0,0
+472,2021.0,Switzerland,French,1,0,0
+473,2002.0,Bosnia and Herzegovina,Serbian/English,0,0,1
+474,2002.0,Germany,English,0,1,0
+475,2003.0,Germany,English,0,1,0
+476,2005.0,Germany,English,0,1,0
+477,2006.0,Germany,English,0,1,0
+478,2008.0,Germany,English,0,1,0
+479,2009.0,Germany,English,0,1,0
+480,2010.0,Germany,English,0,1,0
+481,2011.0,Germany,English,0,1,0
+482,2012.0,Germany,English,0,1,0
+483,2013.0,Germany,English,0,1,0
+484,2014.0,Germany,English,0,1,0
+485,2015.0,Germany,English,0,1,0
+486,2016.0,Germany,English,0,1,0
+487,2017.0,Germany,English,0,1,0
+488,2018.0,Germany,English,0,1,0
+489,2019.0,Germany,English,0,1,0
+490,2020.0,Germany,English,0,1,0
+491,2021.0,Germany,English,0,1,0
+492,2022.0,Germany,English,0,1,0
+493,2002.0,Lithuania,English,0,1,0
+494,2004.0,Lithuania,English,0,1,0
+495,2005.0,Lithuania,English,0,1,0
+496,2007.0,Lithuania,English,0,1,0
+497,2008.0,Lithuania,English,0,1,0
+498,2010.0,Lithuania,English,0,1,0
+499,2012.0,Lithuania,English,0,1,0
+500,2013.0,Lithuania,English,0,1,0
+501,2014.0,Lithuania,English,0,1,0
+502,2015.0,Lithuania,English,0,1,0
+503,2016.0,Lithuania,English,0,1,0
+504,2017.0,Lithuania,English,0,1,0
+505,2019.0,Lithuania,English,0,1,0
+506,2020.0,Lithuania,English,0,1,0
+507,2021.0,Lithuania,English,0,1,0
+508,2003.0,Austria,Styrian German,0,0,1
+509,2003.0,Turkey,English,0,1,0
+510,2004.0,Turkey,English,0,1,0
+511,2010.0,Turkey,English,0,1,0
+512,2011.0,Turkey,English,0,1,0
+513,2012.0,Turkey,English,0,1,0
+514,2003.0,Bosnia and Herzegovina,Croatian/English,0,0,1
+515,2003.0,Portugal,Portuguese/English,0,0,1
+516,2005.0,Portugal,Portuguese/English,0,0,1
+517,2006.0,Portugal,Portuguese/English,0,0,1
+518,2003.0,Croatia,Croatian/English,0,0,1
+519,2007.0,Croatia,Croatian/English,0,0,1
+520,2003.0,Russia,Russian (English),0,0,1
+521,2003.0,Israel,Hebrew/English (Gr./Fr./Sp.),0,0,1
+522,2003.0,Ukraine,English (title Spanish),0,0,1
+523,2003.0,Greece,English,0,1,0
+524,2004.0,Greece,English,0,1,0
+525,2005.0,Greece,English,0,1,0
+526,2006.0,Greece,English,0,1,0
+527,2008.0,Greece,English,0,1,0
+528,2009.0,Greece,English,0,1,0
+529,2012.0,Greece,English,0,1,0
+530,2014.0,Greece,English,0,1,0
+531,2015.0,Greece,English,0,1,0
+532,2017.0,Greece,English,0,1,0
+533,2019.0,Greece,English,0,1,0
+534,2020.0,Greece,English,0,1,0
+535,2021.0,Greece,English,0,1,0
+536,2022.0,Greece,English,0,1,0
+537,2003.0,Poland,German/Polish/ Russian,0,0,1
+538,2003.0,Belgium,Imaginary,0,0,1
+539,2008.0,Belgium,Imaginary,0,0,1
+540,2004.0,Belarus,English,0,1,0
+541,2005.0,Belarus,English,0,1,0
+542,2006.0,Belarus,English,0,1,0
+543,2007.0,Belarus,English,0,1,0
+544,2009.0,Belarus,English,0,1,0
+545,2010.0,Belarus,English,0,1,0
+546,2011.0,Belarus,English,0,1,0
+547,2012.0,Belarus,English,0,1,0
+548,2013.0,Belarus,English,0,1,0
+549,2014.0,Belarus,English,0,1,0
+550,2015.0,Belarus,English,0,1,0
+551,2016.0,Belarus,English,0,1,0
+552,2018.0,Belarus,English,0,1,0
+553,2019.0,Belarus,English,0,1,0
+554,2004.0,Switzerland,English,0,1,0
+555,2005.0,Switzerland,English,0,1,0
+556,2006.0,Switzerland,English,0,1,0
+557,2007.0,Switzerland,English,0,1,0
+558,2009.0,Switzerland,English,0,1,0
+559,2011.0,Switzerland,English,0,1,0
+560,2012.0,Switzerland,English,0,1,0
+561,2013.0,Switzerland,English,0,1,0
+562,2014.0,Switzerland,English,0,1,0
+563,2015.0,Switzerland,English,0,1,0
+564,2016.0,Switzerland,English,0,1,0
+565,2017.0,Switzerland,English,0,1,0
+566,2018.0,Switzerland,English,0,1,0
+567,2019.0,Switzerland,English,0,1,0
+568,2022.0,Switzerland,English,0,1,0
+569,2004.0,Latvia,Latvian,1,0,0
+570,2004.0,Andorra,Catalan,1,0,0
+571,2005.0,Andorra,Catalan,1,0,0
+572,2006.0,Andorra,Catalan,1,0,0
+573,2004.0,Monaco,French,1,0,0
+574,2005.0,Monaco,French,1,0,0
+575,2004.0,Ukraine,English/Ukrainian,0,0,1
+576,2004.0,Albania,English,0,1,0
+577,2005.0,Albania,English,0,1,0
+578,2009.0,Albania,English,0,1,0
+579,2010.0,Albania,English,0,1,0
+580,2014.0,Albania,English,0,1,0
+581,2015.0,Albania,English,0,1,0
+582,2016.0,Albania,English,0,1,0
+583,2017.0,Albania,English,0,1,0
+584,2020.0,Albania,English,0,1,0
+585,2004.0,Macedonia,English,0,1,0
+586,2005.0,Macedonia,English,0,1,0
+587,2008.0,Macedonia,English,0,1,0
+588,2014.0,Macedonia,English,0,1,0
+589,2015.0,Macedonia,English,0,1,0
+590,2017.0,Macedonia,English,0,1,0
+591,2018.0,Macedonia,English,0,1,0
+592,2004.0,Estonia,Võro,0,0,1
+593,2004.0,Serbia and Montenegro,Serbian,1,0,0
+594,2004.0,Bosnia and Herzegovina,English,0,1,0
+595,2005.0,Bosnia and Herzegovina,English,0,1,0
+596,2010.0,Bosnia and Herzegovina,English,0,1,0
+597,2004.0,Austria,German,1,0,0
+598,2004.0,France,French/Spanish,0,0,1
+599,2004.0,Germany,English/Turkish,0,0,1
+600,2004.0,Poland,English/Spanish,0,0,1
+601,2005.0,Austria,English/Spanish,0,0,1
+602,2005.0,Moldova,English (Romanian),0,0,1
+603,2005.0,Latvia,English (Sign language),0,0,1
+604,2005.0,Bulgaria,English,0,1,0
+605,2006.0,Bulgaria,English,0,1,0
+606,2008.0,Bulgaria,English,0,1,0
+607,2009.0,Bulgaria,English,0,1,0
+608,2017.0,Bulgaria,English,0,1,0
+609,2018.0,Bulgaria,English,0,1,0
+610,2020.0,Bulgaria,English,0,1,0
+611,2021.0,Bulgaria,English,0,1,0
+612,2022.0,Bulgaria,English,0,1,0
+613,2005.0,Poland,Polish/Russian,0,0,1
+614,2005.0,Cyprus,English (title Greek),0,0,1
+615,2005.0,Serbia and Montenegro,Montenegrin,1,0,0
+616,2005.0,Ukraine,Ukrainian/English (6 other),0,0,1
+617,2006.0,Armenia,English,0,1,0
+618,2010.0,Armenia,English,0,1,0
+619,2011.0,Armenia,English,0,1,0
+620,2013.0,Armenia,English,0,1,0
+621,2014.0,Armenia,English,0,1,0
+622,2015.0,Armenia,English,0,1,0
+623,2016.0,Armenia,English,0,1,0
+624,2017.0,Armenia,English,0,1,0
+625,2019.0,Armenia,English,0,1,0
+626,2020.0,Armenia,English,0,1,0
+627,2022.0,Armenia,English,0,1,0
+628,2006.0,Albania,Albanian,1,0,0
+629,2008.0,Albania,Albanian,1,0,0
+630,2013.0,Albania,Albanian,1,0,0
+631,2018.0,Albania,Albanian,1,0,0
+632,2019.0,Albania,Albanian,1,0,0
+633,2021.0,Albania,Albanian,1,0,0
+634,2006.0,Belgium,English (title French),0,0,1
+635,2006.0,Monaco,French (Tahitian),1,0,0
+636,2006.0,Macedonia,English/Macedonian,0,0,1
+637,2006.0,Poland,English/Pol./ Germ./Russ./Sp.,0,0,1
+638,2006.0,Ukraine,English,0,1,0
+639,2008.0,Ukraine,English,0,1,0
+640,2009.0,Ukraine,English,0,1,0
+641,2010.0,Ukraine,English,0,1,0
+642,2011.0,Ukraine,English,0,1,0
+643,2012.0,Ukraine,English,0,1,0
+644,2013.0,Ukraine,English,0,1,0
+645,2014.0,Ukraine,English,0,1,0
+646,2017.0,Ukraine,English,0,1,0
+647,2018.0,Ukraine,English,0,1,0
+648,2006.0,Netherlands,English/Imaginary,0,0,1
+649,2006.0,Lithuania,English (French),0,0,1
+650,2006.0,Bosnia and Herzegovina,Bosnian,1,0,0
+651,2008.0,Bosnia and Herzegovina,Bosnian,1,0,0
+652,2009.0,Bosnia and Herzegovina,Bosnian,1,0,0
+653,2012.0,Bosnia and Herzegovina,Bosnian,1,0,0
+654,2016.0,Bosnia and Herzegovina,Bosnian,1,0,0
+655,2006.0,Moldova,English (Spanish),0,0,1
+656,2006.0,Spain,Spanish (Andalusian),0,0,1
+657,2006.0,Romania,English/Italian,0,0,1
+658,2006.0,Croatia,Croatian (Italo-Dalmatian),0,0,1
+659,2007.0,Bulgaria,Bulgarian,1,0,0
+660,2011.0,Bulgaria,Bulgarian,1,0,0
+661,2013.0,Bulgaria,Bulgarian,1,0,0
+662,2007.0,Israel,English/French/ Hebrew,0,0,1
+663,2007.0,Cyprus,French,0,0,1
+664,2007.0,Georgia,English,0,1,0
+665,2008.0,Georgia,English,0,1,0
+666,2010.0,Georgia,English,0,1,0
+667,2011.0,Georgia,English,0,1,0
+668,2013.0,Georgia,English,0,1,0
+669,2014.0,Georgia,English,0,1,0
+670,2015.0,Georgia,English,0,1,0
+671,2016.0,Georgia,English,0,1,0
+672,2017.0,Georgia,English,0,1,0
+673,2020.0,Georgia,English,0,1,0
+674,2021.0,Georgia,English,0,1,0
+675,2022.0,Georgia,English,0,1,0
+676,2007.0,Montenegro,Montenegrin,1,0,0
+677,2008.0,Montenegro,Montenegrin,1,0,0
+678,2013.0,Montenegro,Montenegrin,1,0,0
+679,2014.0,Montenegro,Montenegrin,1,0,0
+680,2015.0,Montenegro,Montenegrin,1,0,0
+681,2018.0,Montenegro,Montenegrin,1,0,0
+682,2007.0,Moldova,English,0,1,0
+683,2008.0,Moldova,English,0,1,0
+684,2010.0,Moldova,English,0,1,0
+685,2011.0,Moldova,English,0,1,0
+686,2014.0,Moldova,English,0,1,0
+687,2015.0,Moldova,English,0,1,0
+688,2016.0,Moldova,English,0,1,0
+689,2017.0,Moldova,English,0,1,0
+690,2018.0,Moldova,English,0,1,0
+691,2019.0,Moldova,English,0,1,0
+692,2020.0,Moldova,English,0,1,0
+693,2021.0,Moldova,English,0,1,0
+694,2007.0,Albania,English/Albanian,0,0,1
+695,2011.0,Albania,English/Albanian,0,0,1
+696,2022.0,Albania,English/Albanian,0,0,1
+697,2007.0,Serbia,Serbian,1,0,0
+698,2008.0,Serbia,Serbian,1,0,0
+699,2009.0,Serbia,Serbian,1,0,0
+700,2010.0,Serbia,Serbian,1,0,0
+701,2011.0,Serbia,Serbian,1,0,0
+702,2012.0,Serbia,Serbian,1,0,0
+703,2013.0,Serbia,Serbian,1,0,0
+704,2020.0,Serbia,Serbian,1,0,0
+705,2021.0,Serbia,Serbian,1,0,0
+706,2022.0,Serbia,Serbian,1,0,0
+707,2007.0,Czech Republic,Czech,1,0,0
+708,2007.0,Portugal,Portuguese/English (French/Spanish),0,0,1
+709,2007.0,Norway,English (title Spanish),0,0,1
+710,2007.0,Andorra,Catalan/English,0,0,1
+711,2009.0,Andorra,Catalan/English,0,0,1
+712,2007.0,Hungary,English,0,1,0
+713,2009.0,Hungary,English,0,1,0
+714,2012.0,Hungary,English,0,1,0
+715,2014.0,Hungary,English,0,1,0
+716,2015.0,Hungary,English,0,1,0
+717,2016.0,Hungary,English,0,1,0
+718,2007.0,Turkey,English (title partly Turkish),0,0,1
+719,2007.0,Latvia,Italian,0,0,1
+720,2007.0,Bosnia and Herzegovina,Serbian,0,0,1
+721,2007.0,Spain,Spanish (English),0,0,1
+722,2013.0,Spain,Spanish (English),0,0,1
+723,2007.0,France,French/English (Franglais),0,0,1
+724,2007.0,Ukraine,German/English/ Ukrainian/Russian,0,0,1
+725,2007.0,Romania,English/It./Sp./ Russ./Fr./Rom.,0,0,1
+726,2007.0,Armenia,English/Armenian,0,0,1
+727,2008.0,Armenia,English/Armenian,0,0,1
+728,2009.0,Armenia,English/Armenian,0,0,1
+729,2008.0,Estonia,Serbian (German/Finnish),0,0,1
+730,2008.0,San Marino,Italian,1,0,0
+731,2013.0,San Marino,Italian,1,0,0
+732,2008.0,Azerbaijan,English,0,1,0
+733,2009.0,Azerbaijan,English,0,1,0
+734,2010.0,Azerbaijan,English,0,1,0
+735,2011.0,Azerbaijan,English,0,1,0
+736,2012.0,Azerbaijan,English,0,1,0
+737,2013.0,Azerbaijan,English,0,1,0
+738,2014.0,Azerbaijan,English,0,1,0
+739,2015.0,Azerbaijan,English,0,1,0
+740,2016.0,Azerbaijan,English,0,1,0
+741,2017.0,Azerbaijan,English,0,1,0
+742,2018.0,Azerbaijan,English,0,1,0
+743,2019.0,Azerbaijan,English,0,1,0
+744,2020.0,Azerbaijan,English,0,1,0
+745,2022.0,Azerbaijan,English,0,1,0
+746,2008.0,Ireland,English (Fr./Germ./It./Sp.),0,0,1
+747,2008.0,Andorra,English (Catalan),0,0,1
+748,2008.0,Romania,Romanian/Italian,0,0,1
+749,2008.0,Czech Republic,English,0,1,0
+750,2015.0,Czech Republic,English,0,1,0
+751,2016.0,Czech Republic,English,0,1,0
+752,2017.0,Czech Republic,English,0,1,0
+753,2018.0,Czech Republic,English,0,1,0
+754,2019.0,Czech Republic,English,0,1,0
+755,2020.0,Czech Republic,English,0,1,0
+756,2022.0,Czech Republic,English,0,1,0
+757,2008.0,Belarus,English (title Spanish),0,0,1
+758,2008.0,Hungary,English/Hungarian,0,0,1
+759,2011.0,Hungary,English/Hungarian,0,0,1
+760,2008.0,Malta,English (Russian),0,0,1
+761,2008.0,Cyprus,Greek (title French),0,0,1
+762,2008.0,France,English/French,0,0,1
+763,2008.0,Spain,Spanish/English,0,0,1
+764,2017.0,Spain,Spanish/English,0,0,1
+765,2022.0,Spain,Spanish/English,0,0,1
+766,2009.0,Montenegro,English,0,1,0
+767,2016.0,Montenegro,English,0,1,0
+768,2017.0,Montenegro,English,0,1,0
+769,2019.0,Montenegro,English,0,1,0
+770,2022.0,Montenegro,English,0,1,0
+771,2009.0,Czech Republic,English (Romani),0,0,1
+772,2009.0,Sweden,English/French,0,0,1
+773,2009.0,Turkey,English (title Turkish),0,0,1
+774,2009.0,Israel,English/Hebrew/ Arabic,0,0,1
+775,2009.0,Ireland,English (title Latin),0,0,1
+776,2009.0,Latvia,Russian,0,0,1
+777,2009.0,Slovenia,English/Slovene,0,0,1
+778,2014.0,Slovenia,English/Slovene,0,0,1
+779,2009.0,Lithuania,English/Russian,0,0,1
+780,2009.0,Moldova,Romanian/English,0,0,1
+781,2009.0,Russia,Russian/Ukrainian,0,0,1
+782,2010.0,Finland,Finnish (title Karelian dialect),0,0,1
+783,2010.0,Poland,English/Polish,0,0,1
+784,2010.0,Iceland,English (French),0,0,1
+785,2010.0,Bulgaria,Bulgarian/English,0,0,1
+786,2010.0,France,French (title partly Spanish),0,0,1
+787,2011.0,Norway,English (Swahili),0,0,1
+788,2011.0,Russia,English (Russian),0,0,1
+789,2011.0,San Marino,English,0,1,0
+790,2014.0,San Marino,English,0,1,0
+791,2015.0,San Marino,English,0,1,0
+792,2016.0,San Marino,English,0,1,0
+793,2017.0,San Marino,English,0,1,0
+794,2018.0,San Marino,English,0,1,0
+795,2020.0,San Marino,English,0,1,0
+796,2021.0,San Marino,English,0,1,0
+797,2011.0,Lithuania,English (French/ Sign language),0,0,1
+798,2011.0,Greece,English/Greek,0,0,1
+799,2011.0,Bosnia and Herzegovina,English (Bosnian),0,0,1
+800,2011.0,Slovakia,English,0,1,0
+801,2012.0,Slovakia,English,0,1,0
+802,2011.0,Macedonia,Macedonian/English (Russian),0,0,1
+803,2011.0,France,Corsican,0,0,1
+804,2011.0,Italy,Italian/English,0,0,1
+805,2016.0,Italy,Italian/English,0,0,1
+806,2012.0,Montenegro,English (German/ Montenegrin),0,0,1
+807,2012.0,Albania,Albanian (title Latin),0,0,1
+808,2012.0,Romania,Spanish/English,0,0,1
+809,2012.0,Finland,Swedish,0,0,1
+810,2012.0,Israel,English/Hebrew,0,0,1
+811,2014.0,Israel,English/Hebrew,0,0,1
+812,2021.0,Israel,English/Hebrew,0,0,1
+813,2012.0,San Marino,English (Italian),0,0,1
+814,2012.0,Denmark,English (Arabic),0,0,1
+815,2012.0,Russia,Udmurt (English),0,0,1
+816,2012.0,Austria,Mühlviertel German,0,0,1
+817,2012.0,Moldova,English (title Romanian),0,0,1
+818,2012.0,Bulgaria,Bulgarian (10 other),0,0,1
+819,2012.0,Georgia,English/Georgian,0,0,1
+820,2012.0,Italy,English/Italian,0,0,1
+821,2013.0,Moldova,Romanian,1,0,0
+822,2022.0,Moldova,Romanian,1,0,0
+823,2013.0,Macedonia,Macedonian/Romani,0,0,1
+824,2013.0,Iceland,Icelandic,1,0,0
+825,2019.0,Iceland,Icelandic,1,0,0
+826,2022.0,Iceland,Icelandic,1,0,0
+827,2013.0,Greece,Greek (title English),0,0,1
+828,2013.0,Italy,Italian,1,0,0
+829,2015.0,Italy,Italian,1,0,0
+830,2018.0,Italy,Italian,1,0,0
+831,2020.0,Italy,Italian,1,0,0
+832,2021.0,Italy,Italian,1,0,0
+833,2022.0,Italy,Italian,1,0,0
+834,2014.0,Latvia,English (Latvian),0,0,1
+835,2014.0,Poland,Polish/English,0,0,1
+836,2019.0,Poland,Polish/English,0,0,1
+837,2014.0,France,French (English/Spanish),0,0,1
+838,2014.0,Italy,Italian (English),0,0,1
+839,2014.0,Spain,English/Spanish,0,0,1
+840,2015.0,Serbia,English (Sign language),0,0,1
+841,2015.0,Romania,Romanian/English,0,0,1
+842,2015.0,Israel,English,0,1,0
+843,2016.0,Israel,English,0,1,0
+844,2017.0,Israel,English,0,1,0
+845,2019.0,Israel,English,0,1,0
+846,2022.0,Israel,English,0,1,0
+847,2015.0,Australia,English,1,1,0
+848,2016.0,Australia,English,1,1,0
+849,2017.0,Australia,English,1,1,0
+850,2018.0,Australia,English,1,1,0
+851,2019.0,Australia,English,1,1,0
+852,2020.0,Australia,English,1,1,0
+853,2021.0,Australia,English,1,1,0
+854,2022.0,Australia,English,1,1,0
+855,2016.0,Greece,Greek/English (Pontic Greek),0,0,1
+856,2016.0,Cyprus,English (title Latin),0,0,1
+857,2016.0,Austria,French,0,0,1
+858,2016.0,Serbia,English,0,1,0
+859,2017.0,Serbia,English,0,1,0
+860,2016.0,Bulgaria,English (Bulgarian),0,0,1
+861,2016.0,Ukraine,English/Crimean Tatar,0,0,1
+862,2016.0,Spain,English,0,1,0
+863,2017.0,Hungary,Hungarian (Romani) (title Latin),0,0,1
+864,2017.0,Croatia,English/Italian,0,0,1
+865,2017.0,Belarus,Belarusian,1,0,0
+866,2020.0,Belarus,Belarusian,1,0,0
+867,2017.0,Italy,Italian (English/ Sanskrit/Ancient Greek),0,0,1
+868,2018.0,Lithuania,English (Lithuanian),0,0,1
+869,2018.0,Israel,English (Hebrew/Japanese),0,0,1
+870,2018.0,Estonia,Italian,0,0,1
+871,2018.0,Armenia,Armenian,1,0,0
+872,2018.0,Cyprus,English (title Spanish),0,0,1
+873,2018.0,Serbia,Serbian (Torlakian dialect),0,0,1
+874,2018.0,Denmark,English (Icelandic),0,0,1
+875,2018.0,Georgia,Georgian,1,0,0
+876,2018.0,Slovenia,Slovene (Portuguese),0,0,1
+877,2019.0,Serbia,Serbian (English),0,0,1
+878,2019.0,Georgia,Georgian (Abkhaz),0,0,1
+879,2019.0,San Marino,English (Turkish),0,0,1
+880,2019.0,Denmark,English/French (German/Danish),0,0,1
+881,2019.0,Croatia,English/Croatian,0,0,1
+882,2021.0,Croatia,English/Croatian,0,0,1
+883,2019.0,Norway,English (Sami),0,0,1
+884,2019.0,North Macedonia,English,0,1,0
+885,2020.0,North Macedonia,English,0,1,0
+886,2021.0,North Macedonia,English,0,1,0
+887,2022.0,North Macedonia,English,0,1,0
+888,2019.0,France,French/English (Sign language),0,0,1
+889,2019.0,Italy,Italian (Arabic),0,0,1
+890,2020.0,Israel,English/Amharic/Hebrew/Arabic,0,0,1
+891,2020.0,Russia,English/Spanish,0,0,1
+892,2020.0,Slovenia,Slovenian,0,0,1
+893,2022.0,Slovenia,Slovenian,0,0,1
+894,2020.0,The Netherlands,English,0,1,0
+895,2020.0,Ukraine,Ukrainian,1,0,0
+896,2021.0,Ukraine,Ukrainian,1,0,0
+897,2022.0,Ukraine,Ukrainian,1,0,0
+898,2021.0,Azerbaijan,English/Azerbaijani,0,0,1
+899,2021.0,Czech Republic,English/Czech,0,0,1
+900,2021.0,Denmark,Danish,1,0,0
+901,2021.0,Malta,English/French,0,0,1
+902,2021.0,Portugal,English,0,1,0
+903,2021.0,Russia,Russian,1,0,0
+904,2021.0,Netherlands,English/Sranan Tongo,0,0,1
+905,2022.0,Cyprus,English/Greek,0,0,1
+906,2022.0,France,Breton,0,0,1
+907,2022.0,Lithuania,Lithuanian,1,0,0
+908,2022.0,Portugal,English/Portuguese,0,0,1
+909,2022.0,Romania,English/Spanish,0,0,1
+910,2022.0,San Marino,Italian/English,0,0,1
+911,2022.0,The Netherlands,Dutch,1,0,0
+912,,Azerbaijan,Azerbaijani,1,0,0
+913,,North Macedonia,Macedonian,1,0,0
