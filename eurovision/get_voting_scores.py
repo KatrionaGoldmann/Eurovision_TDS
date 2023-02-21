@@ -9,6 +9,8 @@ import pandas as pd
 import numpy as np
 import pickle
 import pycountry
+import requests
+from bs4 import BeautifulSoup
 
 def import_and_clean(filename):
     """
@@ -88,9 +90,6 @@ def convert_country_names(df, replace_list=None, country_codes_pickle_file=None)
     # get the country codes as a list
     country_codes = list(np.unique(list(country_codes_dict.values())))
 
-    # get the country codes as a list
-    country_codes = list(country_codes_dict.values())
-
     # save country_codes_dict to pickle
     if country_codes_pickle_file is not None:
         with open(country_codes_pickle_file, 'wb') as handle:
@@ -100,7 +99,72 @@ def convert_country_names(df, replace_list=None, country_codes_pickle_file=None)
     df['To country'] = df['To country'].map(country_codes_dict)
     df['From country'] = df['From country'].map(country_codes_dict)
 
-    return df, country_codes
+    return df, country_codes, country_codes_dict
+
+def import_votes_from_wiki(year, country_codes_dict, table_ids=[16, 17]):
+
+    url=f"https://en.wikipedia.org/wiki/Eurovision_Song_Contest_{year}#Final_2"
+    response=requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    tables=soup.find_all('table',{'class':"wikitable"})
+
+    out_tables=[]
+
+    for table in [tables[i] for i in table_ids]:
+        df_table=pd.read_html(str(table))
+        df_table=pd.DataFrame(df_table[0])
+
+        # remove redundant rows/columns
+        df_table = df_table.drop(df_table.columns[[0, 2, 3, 4]], axis=1)
+        df_table = df_table.drop(df_table.index[[0, 2]], axis=0) 
+
+        # set the index to the first column
+        df_table = df_table.set_index(df_table.columns[0])
+
+        # set the column names as the first row
+        df_table.columns = df_table.iloc[0]
+        df_table = df_table.drop(df_table.index[0])
+
+        # replace NaN with 0
+        df_table = df_table.fillna(0)
+
+        # squash the column index with stack
+        df_table = df_table.stack().reset_index()
+
+        df_table.columns = ['To country', 'From country', 'Points']
+        df_table['Jury or Televoting'] = 'J'
+
+        df_table['Year'] = year
+        df_table['(semi-) final'] = 'f'
+        df_table['Edition'] = f"{year}f"
+        df_table['Duplicate'] = ""
+        
+        # if From country = To country, set Duplicate = x
+        df_table.loc[df_table['From country'] == df_table['To country'], 'Duplicate'] = 'x'
+        df_table.loc[df_table['From country'] == df_table['To country'], 'Points'] = np.nan
+
+        # convert the country names to country codes
+        df_table['To country'] = df_table['To country'].str.lower().map(country_codes_dict)
+        df_table['From country'] = df_table['From country'].str.lower().map(country_codes_dict)
+
+        # re-order the columns to match the original data   
+        df_table = df_table[['Year', '(semi-) final', 'Edition', 
+                             'Jury or Televoting','From country', 'To country', 
+                             'Points', 'Duplicate']]
+        
+        df_table['Points'] = df_table['Points'].astype(np.float).astype("Int32")
+
+        out_tables=out_tables+[df_table]
+
+    jury_table = out_tables[0]
+    tele_table = out_tables[1]
+
+    tele_table['Jury or Televoting'] = 'T'
+
+    combined_table = pd.concat([jury_table, tele_table])
+
+    return combined_table
+
 
 def calculate_voting_scores(df, country_codes):
     """
@@ -109,12 +173,11 @@ def calculate_voting_scores(df, country_codes):
     - 2016 onwards: combined the tele-voting and jury score then refactor for 1..8, 10, 12 scale.
     """
 
-    # pre-2016 scores
+   # pre-2016 scores
     df2 = df.loc[df['Year'] < 2016]
     df_to_2016 = df2.pivot(index=['Year', 'From country'], columns=['To country'], 
                         values='Points')
     df_to_2016 = df_to_2016
-    df_to_2016.head()
 
     # Post-2016 Scores : must be rescaled for combined tele-voting and jury scores
     # create new df with column for each country
@@ -122,7 +185,7 @@ def calculate_voting_scores(df, country_codes):
     df_from_2016 = df_from_2016.set_index(['Year', 'From country'])
 
     # for each year, and country, get the total points
-    for i in range(2016, 2022):
+    for i in range(2016, 2023):
         subset = df.loc[(df['Year'] == i)] 
         for country in subset['From country'].unique():  
             
@@ -161,8 +224,21 @@ def calculate_voting_scores(df, country_codes):
     # remove duplicated rows
     df_from_2016 = df_from_2016.drop_duplicates()
 
-    # Combine the two data frames
-    df_all = df_from_2016.add(df_to_2016, fill_value=0)
+    # Find country_codes not in column names and add them
+    missing_countries = [c for c in country_codes if c not in df_to_2016.columns]
+    for c in missing_countries:
+        df_to_2016[c] = np.nan
+
+    missing_countries = [c for c in country_codes if c not in df_from_2016.columns]
+    for c in missing_countries:
+        df_from_2016[c] = np.nan
+
+    # reorder columns
+    df_to_2016 = df_to_2016.reindex(columns=country_codes)
+    df_from_2016 = df_from_2016.reindex(columns=country_codes)
+
+    # Merge the two dataframes
+    df_all = pd.concat([df_to_2016, df_from_2016])
 
     return df_all
 
@@ -180,9 +256,12 @@ def get_final_output(df, output_file=None):
 
 def get_voting_scores(filename, replace_list=None, country_codes_pickle_file= None, output_file=None):
     """
-    Main function to curate the voting scores
+    Main wrapper function to curate the voting scores
     """
     df = import_and_clean(filename)
-    df, country_codes = convert_country_names(df, replace_list, country_codes_pickle_file)
+    df, country_codes, country_codes_dict = convert_country_names(df, replace_list, country_codes_pickle_file)
+    votes_2021 = import_votes_from_wiki(2021, country_codes_dict)
+    votes_2022 = import_votes_from_wiki(2022, country_codes_dict)
+    df = pd.concat([df, votes_2021, votes_2022])
     df = calculate_voting_scores(df, country_codes)
     return get_final_output(df, output_file)
