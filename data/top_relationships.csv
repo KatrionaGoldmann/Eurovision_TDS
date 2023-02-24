@@ -1,0 +1,16 @@
+from_country,country,from_country_name,country_name,num_years,votes_x,votes_y,votes_diff,group
+BA,RS,bosnia and herzegovina,serbia,6,11.333333333333334,10.166666666666666,1.1666666666666679,lovers
+RU,AZ,russia,azerbaijan,10,9.4,7.9,1.5,lovers
+SE,AU,sweden,australia,5,8.2,7.8,0.39999999999999947,lovers
+BG,AT,bulgaria,austria,4,7.5,4.75,2.75,lovers
+SI,MK,slovenia,f.y.r. macedonia,7,6.285714285714286,4.0,2.2857142857142856,lovers
+AL,LT,albania,lithuania,9,0.1111111111111111,0.0,0.1111111111111111,haters
+IS,GE,iceland,georgia,7,0.2857142857142857,0.0,0.2857142857142857,haters
+RS,TR,serbia,turkey,5,0.6,0.0,0.6,haters
+BY,SI,belarus,slovenia,6,0.8333333333333334,0.0,0.8333333333333334,haters
+LT,IL,lithuania,israel,13,1.0,0.7692307692307693,0.23076923076923073,haters
+TR,AM,turkey,armenia,5,8.8,0.8,8.0,unequals
+CH,PT,switzerland,portugal,5,9.4,2.8,6.6000000000000005,unequals
+ES,IT,spain,italy,9,7.444444444444445,1.3333333333333333,6.111111111111112,unequals
+FR,IT,france,italy,9,7.222222222222222,1.6666666666666667,5.555555555555555,unequals
+IT,UA,italy,ukraine,7,6.142857142857143,0.8571428571428571,5.2857142857142865,unequals
