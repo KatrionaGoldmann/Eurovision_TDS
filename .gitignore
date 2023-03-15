@@ -131,3 +131,5 @@ dmypy.json
 # vscode
 .vscode/
 .DS_store
+
+eurovision/model_output/**
