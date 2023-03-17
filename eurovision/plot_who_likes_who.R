@@ -44,4 +44,4 @@ ggplot(df, aes(x = votes_x, xend = votes_y, y = num, yend = num, color = group))
     # add footnote
     annotate("text", x = 9, y = 2, label = "* The point next to a country shows the received \naverage vote from the country linked to it", size = 2.5) 
 
-ggsave("plots/relationship_plot.jpg", width = 5.5, height = 4.5)
+ggsave("plots/who_likes_who.jpg", width = 5.5, height = 4.5)
