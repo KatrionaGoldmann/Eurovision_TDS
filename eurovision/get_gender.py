@@ -1,86 +1,135 @@
-import pandas as pd
-from wikipeople import wikipeople as wp # use wp to get the gender data as needed. 
-import re
-import requests
-import multiprocessing as mp
 import numpy as np
+import asyncio
+import aiohttp
 
-def search_wikidata(string):
+
+async def get_property(session, concept_id, property_id):
+    """Async reimplementation of wikipeople.get_property
+    https://github.com/samvanstroud/wikipeople/blob/master/wikipeople/wikipeople.py
     """
-    Query the Wikidata API using the wbsearchentities function.
-    Return the concept ID of the search result that has the musician identifier.
+    url = 'https://www.wikidata.org/w/api.php'
+    params = {'action': 'wbgetclaims',
+              'entity': concept_id,
+              'property': property_id,
+              'language': 'en',
+              'format': 'json'}
+    async with session.get(url, params=params) as resp:
+        res = await resp.json()
+
+    if property_id not in res['claims']:
+        return None
+    # This gives yet another 'id', and we then need to perform yet another HTTP
+    # request to find the actual *label* that this corresponds to.
+    else:
+        id = None
+        for prop in res['claims'][property_id]:
+            try:
+                id = prop['mainsnak']['datavalue']['value']['id']
+            except:
+                continue
+
+        if id is None:
+            return None
+        else:
+            new_params =  {'action': 'wbgetentities',
+                           'ids': id,
+                           'languages': 'en',
+                           'format': 'json',
+                           'props': 'labels'}
+            async with session.get(url, params=new_params) as resp:
+                res = await resp.json()
+            try:
+                return res['entities'][id]['labels']['en']['value']
+            except:
+                return None
+
+
+async def get_concept_id(session, page_name):
     """
-    query = 'https://www.wikidata.org/w/api.php?action=wbsearchentities&search='
-    query += string
-    query += '&language=en&format=json'
+    Query the Wikidata API using the wbsearchentities function. Return the
+    concept ID of the search result that has the musician identifier.
+    """
+    url = 'https://www.wikidata.org/w/api.php'
+    params = {'action': 'wbsearchentities',
+              'search': page_name,
+              'language': 'en',
+              'format': 'json'}
     music_markers = [
         'singer', 'artist', 'musician', 'music',
         'band', 'group', 'duo', 'ensemble'
     ]
-    res = requests.get(query).json()
-    if len(res['search']) == 0:
-        raise Exception('Wikidata search failed.')
+
+    async with session.get(url, params=params) as resp:
+        # Titles of WP pages that match the search query.
+        json = await resp.json()
+
+    result = json['search']
+
+    if len(result) == 0:
+        # Couldn't find a concept id for the person/group
+        return None
+
+    # By default, choose the first result from the list
     target = 0
-    for i in range(len(res['search'])):
-        if 'description' in res['search'][i]['display']:
-            description = res['search'][i]['display']['description']['value']
+    # But check the other results to see if any of them are musicians (as
+    # indicated by the markers) and Eurovision contestants
+    for i, res in enumerate(result):
+        if 'description' in res['display']:
+            description = res['display']['description']['value']
             if any(markers in description for markers in music_markers):
-                concept_id = res['search'][i]['id']
-                contestant_in = wp.get_property(concept_id, 'P1344')[-1]
-                if "Eurovision" in contestant_in:
+                concept_id = res['id']
+                contestant_in = await get_property(session, concept_id, 'P1344')
+                if contestant_in is not None and "Eurovision" in contestant_in:
                     target = i
-    return res['search'][target]['id']
+    # Return the concept ID of the result found
+    return result[target]['id']
 
 
-def lookup_gender(name):
-    """Find gender of given name. If the name is not related to a wiki entry it will return 'RNF' (record not found).
-    Alternatively it will return the gender if the record has one or NA if it does not have this property.
+async def lookup_gender(session, page_name):
+    """Find gender of a performing act, using the name associated with their
+    Wikipedia page. Returns None if could not be found."""
+    concept_id = await get_concept_id(session, page_name)
+    if concept_id is None:
+        return None
 
-    Args:
-        name (str): The name to search
+    gender = await get_property(session, concept_id, 'P21')
+    instance = await get_property(session, concept_id, 'P31')
 
-    Returns:
-        str: The gender of the person searched
-    """
-    gender = 'RNF'
-    try:
-        data = search_wikidata(name)
-        gender = wp.get_property(data, 'P21')[-1]
-        instance = wp.get_property(data, 'P31')[-1]
-        if gender == 'NA':
-            group_checks = [
-                "group", "duo", "trio", "music", "band", "ensemble"
-            ]
-            if any(x in instance for x in group_checks):
-                gender = "group"
-    except:
-        Exception('Wikidata search failed.')
-    return gender
+    if gender is None and instance is None:
+        # Really failed. Last chance: check for '&' in the name
+        return 'group' if '&' in page_name else None
+    elif gender is None and instance is not None:
+        group_checks = ["group", "duo", "trio", "music", "band", "ensemble"]
+        if any(x in instance for x in group_checks):
+            return "group"
+    else:
+        return gender
 
-def get_artist_gender(search):
-    s = requests.Session()
+
+async def get_pages(session, name):
+    """Obtain a list of Wikipedia pages obtained by searching for a name."""
     url = "https://en.wikipedia.org/w/api.php"
     params = {
         "action": "opensearch",
         "namespace": "0",
-        "search": search,
+        "search": name,
         "limit": "10000",
         "format": "json"
     }
-    r = s.get(url=url, params=params)
-    names = r.json()[1]
-    gender = ""
-    if len(names) < 1:
-        gender = "RNF"
+    async with session.get(url, params=params) as resp:
+        # Titles of WP pages that match the search query.
+        json = await resp.json()
+    return json[1]
+
+
+async def get_artist_gender(session, name):
+    pages = await get_pages(session, name)
+    if len(pages) > 0:
+        gender = await lookup_gender(session, pages[0])
+        return gender
     else:
-        for n in names:
-            gender = lookup_gender(n)
-            if not any(gender == x for x in ["RNF", "NA"]):
-                return gender
-    if gender == "RNF" or gender == "NA":
-        if "&" in search:
-            gender = "group"
-    return gender
+        return None
+
 
 def final_fixes(df):
     # group remaining categories accordingly
@@ -116,30 +165,28 @@ def final_fixes(df):
     # sanity check 
     assert len(df.loc[df["Gender"] == "NA"]) == 0, "NA genders > 0"
     assert len(df.loc[df["Gender"] == "RNF"]) == 0, "RNF genders > 0"
-    
     return df
 
-def main():
-    # Load data
-    df = pd.read_json('data/eurovision-lyrics-2022.json', orient = 'index')
-
-    # reduce data to post 1997
-    mask = (df['Year'] > 1997)
-    df2 = df.loc[mask].reset_index()
-
-    # Clean name up (remove any brackets or extra artist information)
-    df2["Artist"] = [re.sub("[\(\[].*?[\)\]]", "", x) for x in df2["Artist"]]
-    df2["Artist"] = [x.split("feat.")[-1] for x in df2["Artist"]]
-    df2["Artist"] = [x.replace("/", "&") for x in df2["Artist"]]
-    df2["Artist"] = [x.strip() for x in df2["Artist"]]
-    
-    with mp.Pool(mp.cpu_count() - 1) as p:
-        genders = p.map(get_artist_gender, df2["Artist"])
-    
-    df2["Gender"] = genders
-    df3 = final_fixes(df2)
-    df3.to_csv('data/eurovision-lyrics-2022-Gender.csv')
-
+async def main():
+    performers = [
+        'Ronela Hajati', 'Rosa Linn', 'Sheldon Riley',
+        'LUM!X feat. Pia Maria', 'Nadir Rustamli', 'Jérémie Makiese',
+        'Intelligent Music Project', 'Mia Dimšić', 'Andromache',
+        'We Are Domi', 'REDDI', 'Stefan',
+        'The Rasmus', 'Alvan & Ahez',
+        'Circus Mircus', 'Malik Harris', 'Amanda Georgiadi Tenfjord',
+        'Systur', 'Brooke', 'Michael Ben David', 'Mahmood & BLANCO',
+        'Citi Zēni', 'Monika Liu', 'Emma Muscat',
+        'Zdob şi Zdub & Advahov Brothers', 'Vladana', 'Andrea',
+        'Subwoolfer', 'Ochman', 'MARO', 'WRS', 'Achille Lauro',
+        'Konstrakta', 'LPS', 'Chanel', 'Cornelia Jakobs', 'Marius Bear',
+        'S10', 'Kalush Orchestra', 'Sam Ryder'
+    ]
+    async with aiohttp.ClientSession() as session:
+        tasks = asyncio.gather(*[get_artist_gender(session, p) for p in performers])
+        genders = await tasks
+    print(dict(zip(performers, genders)))
 
 if __name__ == "__main__":
-    main()
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
