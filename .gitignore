@@ -133,3 +133,11 @@ dmypy.json
 .DS_store
 
 eurovision/model_output/**
+
+df_main.csv
+df_2023.csv
+migration_clean.csv
+eurovision_merged_covariates_03Feb.csv
+final_border_data_long.csv
+
+
