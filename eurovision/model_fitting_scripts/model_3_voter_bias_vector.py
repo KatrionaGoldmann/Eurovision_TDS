@@ -1,3 +1,12 @@
+# This script fits the 'model_3_voter_bias_vector' model on part of the training data
+# which coveres 1998-2018. The script also makes predictions on the rest of the data.
+
+# The set of mcmc samples are exported to be used for analysis later on. There is a full
+# set of predictions made at each mcmc sample.
+
+
+
+
 import stan
 import arviz as az
 import numpy as np

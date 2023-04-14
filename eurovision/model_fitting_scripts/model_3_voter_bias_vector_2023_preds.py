@@ -1,3 +1,12 @@
+# This script fits the 'model_3_voter_bias_vector' model on all of the training data
+# which is 1998-2022. 
+
+# The fitted scipy data scaler is exported for re-use with new covariates during out
+# of sample prediction.
+
+# The set of mcmc samples are exported to be used for inference later on.
+
+
 import stan
 import arviz as az
 import numpy as np
@@ -6,18 +15,17 @@ import matplotlib.pyplot as plt
 import arviz as az
 import math
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
+import pickle
+import json
 
-df_past = pd.read_csv('eurovision/df_main.csv')
+df = pd.read_csv('eurovision/df_main.csv')
 def format_votes(x):
   if x == 12.:
     return 10
   elif x == 10.:
     return 9
   return int(x)
-df_past['indexed_votes'] = df_past['points'].apply(format_votes) + 1
-
-df_future = pd.read_csv('eurovision/df_2023.csv')
-df = df_past.append(df_future,ignore_index=True, verify_integrity=True)
+df['indexed_votes'] = df['points'].apply(format_votes) + 1
 
 # Given gender is a categoric variable with 3 classes, encode as binary w.r.t default gender='group'
 df['male'] = [1 if gender=='male' else 0 for gender in df['gender']]
@@ -31,7 +39,7 @@ df['Contains_Own_Language_bin'] = df['Contains_Own_Language'].apply(lambda x: 1 
 performers = sorted(df['to_code2'].unique())
 voters = sorted(df['from_code2'].unique())
 
-# # create 0-indexed lookup tables for voter-performer pairings
+# create 0-indexed lookup tables for voter-performer pairings
 vptoi = {}
 itovp = {}
 counter = 0
@@ -43,14 +51,16 @@ for p in performers:
             itovp[f'{counter}'] = f'{v}-{p}'
             counter += 1
 
+# save vptoi lookup table to be used in competition simulation
+with open('eurovision/generated_objects/vptoi.json', 'w') as f:
+  json.dump(vptoi,f)
+with open('eurovision/generated_objects/itovp.json', 'w') as f:
+  json.dump(itovp,f)
+
 df['vp'] = df.apply(lambda x: vptoi[f'{x["from_code2"]}-{x["to_code2"]}'], axis=1)
 
-# test/train split
+# train on all the data
 df_train = df.loc[ df['year'] <= 2022 ]
-df_test = df.loc[ df['year'] > 2022 ]
-
-# recast 'indexed_votes' to int (they were cast to float during df.append)
-df_train['indexed_votes'] = df_train['indexed_votes'].apply(lambda x:int(x))
 
 model = """
 // overload add function for adding an int to an array of ints
@@ -75,10 +85,6 @@ data {
   matrix[N,B] xbeta;       // performance dependent covariates
   matrix[VP,PHI] xphi;     // voter/performer pair dependent covariates
   array[N] int<lower=0,upper=VP-1> vp;  // voter/performer pair index
-
-  int<lower=0> N_new; // number of predictions
-  matrix[N_new,B] xbeta_new;
-  array[N_new] int<lower=0,upper=VP-1> vp_new;
 
 }
 parameters {
@@ -106,12 +112,6 @@ generated quantities {
   for (n in 1:N) {
     y_hat[n] = ordered_logistic_rng( gamma + alpha[ add(vp[n],1) ] + (xbeta[n] * beta), lambda);
   }
-
-  // out of sample predictions (scores we expect to observe for new data)
-  vector[N_new] y_pred;
-  for (n_new in 1:N_new) {
-    y_pred[n_new] = ordered_logistic_rng( gamma + alpha[ add(vp_new[n_new],1) ] + (xbeta_new[n_new] * beta), lambda);
-  }
 }
 """
 
@@ -121,9 +121,9 @@ xbeta_train = df_train.loc[:,['Contains_English_bin','Contains_Own_Language_bin'
 scaler = MinMaxScaler() 
 xbeta_train_norm = scaler.fit_transform(xbeta_train)
 
-xbeta_test = df_test.loc[:,['Contains_English_bin','Contains_Own_Language_bin','male','female','comps_without_win']].values
-# minmax scaling of 'comps_since_last_win'
-xbeta_test_norm = scaler.transform(xbeta_test)
+# save scaler to scale the unseen 2023 data with!
+with open('eurovision/model_output/scaler_model_3_voter_bias_vector_no_preds_5000_samples_4_chains_1998-2022.pkl', 'wb') as f:
+  pickle.dump(scaler, f)
 
 df_border = pd.read_csv('eurovision/final_border_data_long.csv')
 
@@ -163,23 +163,19 @@ data = {
     'y': df_train['indexed_votes'].values,
     'xbeta': xbeta_train_norm,
     'xphi' : xphi_norm,
-    'vp' : df_train['vp'].values,
-    'N_new': df_test.shape[0],
-    'xbeta_new': xbeta_test_norm,
-    "vp_new" : df_test['vp'].values
+    'vp' : df_train['vp'].values
 }
 
 posterior = stan.build(model, data=data)
-fit = posterior.sample(num_chains=4, num_warmup=1000, num_samples=1000)
+fit = posterior.sample(num_chains=4, num_warmup=1000, num_samples=4000)
 
 az_fit = az.from_pystan(
     posterior=fit, 
     observed_data="y", 
     posterior_predictive="y_hat",
-    predictions="y_pred", 
     posterior_model=posterior)
 
-az_fit.to_json("eurovision/model_output/model_3_voter_bias_vector_2023_preds_1000_samples_4_chains_1998-2022.json")
+az_fit.to_json("eurovision/model_output/model_3_voter_bias_vector_no_preds_5000_samples_4_chains_1998-2022.json")
 
 az.plot_trace(az_fit, ["beta","lambda"], figsize=(20,8), legend=True, show=True)
 # az.plot_trace(az_fit, ["beta"], figsize=(25,35), legend=True, compact=False, show=True)
