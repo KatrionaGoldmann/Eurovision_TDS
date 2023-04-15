@@ -122,7 +122,7 @@ scaler = MinMaxScaler()
 xbeta_train_norm = scaler.fit_transform(xbeta_train)
 
 # save scaler to scale the unseen 2023 data with!
-with open('eurovision/model_output/scaler_model_3_voter_bias_vector_no_preds_5000_samples_4_chains_1998-2022.pkl', 'wb') as f:
+with open('eurovision/model_output/scaler_model_3_voter_bias_vector_no_preds_3000_samples_4_chains_1998-2022.pkl', 'wb') as f:
   pickle.dump(scaler, f)
 
 df_border = pd.read_csv('eurovision/final_border_data_long.csv')
@@ -167,7 +167,7 @@ data = {
 }
 
 posterior = stan.build(model, data=data)
-fit = posterior.sample(num_chains=4, num_warmup=1000, num_samples=4000)
+fit = posterior.sample(num_chains=4, num_warmup=1000, num_samples=3000)
 
 az_fit = az.from_pystan(
     posterior=fit, 
@@ -175,7 +175,7 @@ az_fit = az.from_pystan(
     posterior_predictive="y_hat",
     posterior_model=posterior)
 
-az_fit.to_json("eurovision/model_output/model_3_voter_bias_vector_no_preds_5000_samples_4_chains_1998-2022.json")
+az_fit.to_json("eurovision/model_output/model_3_voter_bias_vector_no_preds_3000_samples_4_chains_1998-2022.json")
 
 az.plot_trace(az_fit, ["beta","lambda"], figsize=(20,8), legend=True, show=True)
 # az.plot_trace(az_fit, ["beta"], figsize=(25,35), legend=True, compact=False, show=True)
