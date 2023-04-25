@@ -1487,3 +1487,291 @@ year,Artist,from_country,to_country,points,total_points,rank,from_code2,from_cod
 2023,Voyager,azerbaijan,australia,,,,AZ,AZE,AU,AUS,none english has de facto status,['english'],True,False,False,1,True,False,group,753.0,25655289.0,2.935067307173971e-05,,,,,66,False
 2023,Voyager,san marino,australia,,,,SM,SMR,AU,AUS,none english has de facto status,['english'],True,False,False,1,True,False,group,,25655289.0,,,,,,66,False
 2023,Voyager,italy,australia,,,,IT,ITA,AU,AUS,none english has de facto status,['english'],True,False,False,1,True,False,group,206282.0,25655289.0,0.0080405252889569,19897.0,59438851.0,0.0003347473860152,2020.0,66,False
+2023,La Zarra,belgium,france,,,,BE,BEL,FR,FRA,breton corsican french,['french'],False,True,False,1,True,True,female,163609.0,67571107.0,0.0024212863643036,189544.0,11538604.0,0.0164269438486666,2020.0,44,True
+2023,La Zarra,croatia,france,,,,HR,HRV,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,8974.0,67571107.0,0.0001328082430261,1655.0,4047680.0,0.0004088761957466,2020.0,44,False
+2023,La Zarra,cyprus,france,,,,CY,CYP,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,1116.0,67571107.0,1.6515934835875933e-05,908.0,1237537.0,0.0007337154363869,2020.0,44,False
+2023,La Zarra,estonia,france,,,,EE,EST,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,1312.0,67571107.0,1.941658288948855e-05,960.0,1329522.0,0.0007220640200011,2020.0,44,False
+2023,La Zarra,north macedonia,france,,,,MK,MKD,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,5133.0,67571107.0,7.596442071017128e-05,,,,,44,False
+2023,La Zarra,finland,france,,,,FI,FIN,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,3479.0,67571107.0,5.148650295162398e-05,2684.0,5529543.0,0.0004853927349873,2020.0,44,False
+2023,La Zarra,germany,france,,,,DE,DEU,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,203426.0,67571107.0,0.0030105470967051,161772.0,83160871.0,0.0019452898707614,2020.0,44,True
+2023,La Zarra,greece,france,,,,GR,GRC,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,15488.0,67571107.0,0.0002292103931344,6826.0,10698599.0,0.0006380274650914,2020.0,44,False
+2023,La Zarra,hungary,france,,,,HU,HUN,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,11468.0,67571107.0,0.000172326037256,3896.0,9843028.0,0.0003958131583086,2015.0,44,False
+2023,La Zarra,ireland,france,,,,IE,IRL,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,10765.0,67571107.0,0.0001593136545772,12780.0,4985382.0,0.0025634946329087,2020.0,44,False
+2023,La Zarra,israel,france,,,,IL,ISR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,10520.0,67571107.0,0.0001556878445102,40636.0,9215100.0,0.004409718831049,2020.0,44,False
+2023,La Zarra,malta,france,,,,MT,MLT,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,442.0,67571107.0,6.5412573453917215e-06,1296.0,515332.0,0.0025148836090132,2020.0,44,False
+2023,La Zarra,norway,france,,,,NO,NOR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,4653.0,67571107.0,6.886079282377304e-05,6676.0,5379475.0,0.0012410132959071,2020.0,44,False
+2023,La Zarra,poland,france,,,,PL,POL,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,94525.0,67571107.0,0.0013988967207537,34461.0,37899070.0,0.0009092835259545,2020.0,44,False
+2023,La Zarra,portugal,france,,,,PT,PRT,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,639888.0,67571107.0,0.0094698463353575,104164.0,10297081.0,0.0101158765285035,2020.0,44,False
+2023,La Zarra,romania,france,,,,RO,ROU,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,138550.0,67571107.0,0.0020504325909593,21756.0,19265250.0,0.0011292871880717,2020.0,44,False
+2023,La Zarra,slovakia,france,,,,SK,SVK,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,4181.0,67571107.0,6.429283456281911e-05,2454.0,5391428.0,0.0004551669798799,2010.0,44,False
+2023,La Zarra,slovenia,france,,,,SI,SVN,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,2752.0,67571107.0,4.07274665486833e-05,1182.0,2102419.0,0.0005622095310211,2020.0,44,False
+2023,La Zarra,spain,france,,,,ES,ESP,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,282397.0,67571107.0,0.00417925667549,221373.0,47365655.0,0.0046737029182854,2020.0,44,True
+2023,La Zarra,sweden,france,,,,SE,SWE,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,8272.0,67571107.0,0.0001224191872422,11443.0,10353442.0,0.0011052363069209,2020.0,44,False
+2023,La Zarra,switzerland,france,,,,CH,CHE,FR,FRA,breton corsican french,['french'],False,True,False,1,True,True,female,108987.0,67571107.0,0.001612923109281,170155.0,8638167.0,0.0196980447356482,2020.0,44,True
+2023,La Zarra,netherlands,france,,,,NL,NLD,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,40825.0,67571107.0,0.0006041783509629,30917.0,17441500.0,0.0017726113006335,2020.0,44,False
+2023,La Zarra,turkey,france,,,,TR,TUR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,279301.0,67571107.0,0.0042949181980937,15877.0,73195345.0,0.0002169127012107,2010.0,44,False
+2023,La Zarra,united kingdom,france,,,,GB,GBR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,169565.0,67571107.0,0.0025094305469939,170270.0,67081000.0,0.0025382746232167,2020.0,44,False
+2023,La Zarra,austria,france,,,,AT,AUT,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,9993.0,67571107.0,0.0001478886530599,9184.0,8916864.0,0.0010299585145629,2020.0,44,False
+2023,La Zarra,bosnia and herzegovina,france,,,,BA,BIH,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,14506.0,67571107.0,0.000217977109909,174.0,3524324.0,4.9371170187531e-05,2015.0,44,False
+2023,La Zarra,denmark,france,,,,DK,DNK,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,5805.0,67571107.0,8.590949975112883e-05,8182.0,5831404.0,0.0014030926342952,2020.0,44,False
+2023,La Zarra,iceland,france,,,,IS,ISL,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,436.0,67571107.0,6.452461996811744e-06,910.0,366463.0,0.0024831974851485,2020.0,44,False
+2023,La Zarra,lithuania,france,,,,LT,LTU,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,3729.0,67571107.0,5.518630914245641e-05,519.0,2794885.0,0.0001856963703336,2020.0,44,False
+2023,La Zarra,latvia,france,,,,LV,LVA,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,3470.0,67571107.0,5.1353309928754015e-05,279.0,1900449.0,0.0001468074123536,2020.0,44,False
+2023,La Zarra,russian federation,france,,,,RU,RUS,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,73208.0,67571107.0,0.0010834216464738,2564.0,144073139.0,1.779651653178737e-05,2020.0,44,False
+2023,La Zarra,ukraine,france,,,,UA,UKR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,18166.0,67571107.0,0.0002688427170506,,,,,44,False
+2023,La Zarra,albania,france,,,,AL,ALB,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,8925.0,67571107.0,0.0001320830810127,,,,,44,False
+2023,La Zarra,andorra,france,,,,AD,AND,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,980.0,67571107.0,1.550917696200386e-05,4875.0,79826.0,0.0610703279633202,2005.0,44,True
+2023,La Zarra,belarus,france,,,,BY,BLR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,3537.0,67571107.0,5.314938906302481e-05,,,,,44,False
+2023,La Zarra,monaco,france,,,,MC,MCO,FR,FRA,breton corsican french,['french'],False,True,False,1,True,True,female,16581.0,67571107.0,0.0002624057787826,6719.0,32141.0,0.2090476338632898,2005.0,44,True
+2023,La Zarra,yugoslavia,france,,,,YU,YUG,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,,67571107.0,,,,,,44,False
+2023,La Zarra,bulgaria,france,,,,BG,BGR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,34807.0,67571107.0,0.0005151166163372,3021.0,6934015.0,0.0004356783191267,2020.0,44,False
+2023,La Zarra,"moldova, republic of",france,,,,MD,MDA,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,7503.0,67571107.0,0.0001110385833992,,,,,44,False
+2023,La Zarra,armenia,france,,,,AM,ARM,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,21830.0,67571107.0,0.0003230670765834,,,,,44,False
+2023,La Zarra,czechia,france,,,,CZ,CZE,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,8907.0,67571107.0,0.0001318166949669,3817.0,10697858.0,0.000356800398734,2020.0,44,False
+2023,La Zarra,georgia,france,,,,GE,GEO,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,8673.0,67571107.0,0.0001283536763723,39.0,3722716.0,1.0476222199061116e-05,2020.0,44,False
+2023,La Zarra,montenegro,france,,,,ME,MNE,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,1604.0,67571107.0,2.373795652038082e-05,446.0,621306.0,0.000717842737717,2020.0,44,False
+2023,La Zarra,serbia,france,,,,RS,SRB,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,96899.0,67571107.0,0.0014340300803418,5490.0,6899126.0,0.0007957529692891,2020.0,44,False
+2023,La Zarra,azerbaijan,france,,,,AZ,AZE,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,4702.0,67571107.0,6.95859548371762e-05,,,,,44,False
+2023,La Zarra,san marino,france,,,,SM,SMR,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,251.0,67571107.0,3.714605415595752e-06,30.0,34007.0,0.0008821713176698,2020.0,44,False
+2023,La Zarra,italy,france,,,,IT,ITA,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,325933.0,67571107.0,0.0048235557247863,128283.0,59438851.0,0.0021582348555156,2020.0,44,True
+2023,La Zarra,australia,france,,,,AU,AUS,FR,FRA,breton corsican french,['french'],False,True,False,1,True,False,female,9548.0,67571107.0,0.0001413029980402,41469.0,25655289.0,0.0016163918480902,2020.0,44,False
+2023,Lord of the Lost,belgium,germany,,,,BE,BEL,DE,DEU,german,['english'],True,False,False,1,False,False,group,38772.0,83160871.0,0.0004662288830524,81650.0,11538604.0,0.0070762459652831,2020.0,11,True
+2023,Lord of the Lost,croatia,germany,,,,HR,HRV,DE,DEU,german,['english'],True,False,False,1,False,False,group,385778.0,83160871.0,0.0046389365017593,31783.0,4047680.0,0.0078521523440588,2020.0,11,False
+2023,Lord of the Lost,cyprus,germany,,,,CY,CYP,DE,DEU,german,['english'],True,False,False,1,False,False,group,2748.0,83160871.0,3.304438694491307e-05,2582.0,1237537.0,0.0020864022651443,2020.0,11,False
+2023,Lord of the Lost,estonia,germany,,,,EE,EST,DE,DEU,german,['english'],True,False,False,1,False,False,group,13007.0,83160871.0,0.0001564076932287,2507.0,1329522.0,0.0018856401022322,2020.0,11,False
+2023,Lord of the Lost,north macedonia,germany,,,,MK,MKD,DE,DEU,german,['english'],True,False,False,1,False,False,group,108634.0,83160871.0,0.001306311474299,41.0,2072531.0,1.9782575025415784e-05,2020.0,11,False
+2023,Lord of the Lost,finland,germany,,,,FI,FIN,DE,DEU,german,['english'],True,False,False,1,False,False,group,18072.0,83160871.0,0.0002173137412185,6834.0,5529543.0,0.0012359068371473,2020.0,11,False
+2023,Lord of the Lost,france,germany,,,,FR,FRA,DE,DEU,german,['english'],True,False,False,1,False,False,group,161772.0,83160871.0,0.0019452898707614,203426.0,67571107.0,0.0030105470967051,2020.0,11,True
+2023,Lord of the Lost,greece,germany,,,,GR,GRC,DE,DEU,german,['english'],True,False,False,1,False,False,group,391502.0,83160871.0,0.0047077669496751,116644.0,10698599.0,0.0109027359563621,2020.0,11,False
+2023,Lord of the Lost,hungary,germany,,,,HU,HUN,DE,DEU,german,['english'],True,False,False,1,False,False,group,142801.0,83160871.0,0.0017481567450509,28219.0,9843028.0,0.002866902339402,2015.0,11,False
+2023,Lord of the Lost,ireland,germany,,,,IE,IRL,DE,DEU,german,['english'],True,False,False,1,False,True,group,15529.0,83160871.0,0.0001867344559197,16475.0,4985382.0,0.0033046615083859,2020.0,11,False
+2023,Lord of the Lost,israel,germany,,,,IL,ISR,DE,DEU,german,['english'],True,False,False,1,False,False,group,16529.0,83160871.0,0.0001987593419987,22971.0,9215100.0,0.0024927564540808,2020.0,11,False
+2023,Lord of the Lost,malta,germany,,,,MT,MLT,DE,DEU,german,['english'],True,False,False,1,False,True,group,831.0,83160871.0,9.992680331594892e-06,2969.0,515332.0,0.00576133444071,2020.0,11,False
+2023,Lord of the Lost,norway,germany,,,,NO,NOR,DE,DEU,german,['english'],True,False,False,1,False,False,group,9804.0,83160871.0,0.0001178919831178,28327.0,5379475.0,0.0052657554872919,2020.0,11,False
+2023,Lord of the Lost,poland,germany,,,,PL,POL,DE,DEU,german,['english'],True,False,False,1,False,False,group,2141722.0,83160871.0,0.0257539630627485,100688.0,37899070.0,0.0026567406535305,2020.0,11,True
+2023,Lord of the Lost,portugal,germany,,,,PT,PRT,DE,DEU,german,['english'],True,False,False,1,False,False,group,152869.0,83160871.0,0.0018382323100006,30866.0,10297081.0,0.0029975485285587,2020.0,11,False
+2023,Lord of the Lost,romania,germany,,,,RO,ROU,DE,DEU,german,['english'],True,False,False,1,False,False,group,654822.0,83160871.0,0.0078741599519803,30498.0,19265250.0,0.001583057577763,2020.0,11,False
+2023,Lord of the Lost,slovakia,germany,,,,SK,SVK,DE,DEU,german,['english'],True,False,False,1,False,False,group,34516.0,83160871.0,0.0004220750277614,3856.0,5391428.0,0.0007152094027778,2010.0,11,False
+2023,Lord of the Lost,slovenia,germany,,,,SI,SVN,DE,DEU,german,['english'],True,False,False,1,False,False,group,44089.0,83160871.0,0.0005301652023341,7682.0,2102419.0,0.0036538863090563,2020.0,11,False
+2023,Lord of the Lost,spain,germany,,,,ES,ESP,DE,DEU,german,['english'],True,False,False,1,False,False,group,186074.0,83160871.0,0.0022375186522517,200659.0,47365655.0,0.0042363818256076,2020.0,11,False
+2023,Lord of the Lost,sweden,germany,,,,SE,SWE,DE,DEU,german,['english'],True,False,False,1,False,False,group,22178.0,83160871.0,0.0002666879234586,52446.0,10353442.0,0.0050655617716311,2020.0,11,False
+2023,Lord of the Lost,switzerland,germany,,,,CH,CHE,DE,DEU,german,['english'],True,False,False,1,False,False,group,93524.0,83160871.0,0.0011246154456463,357112.0,8638167.0,0.0413411780531679,2020.0,11,True
+2023,Lord of the Lost,netherlands,germany,,,,NL,NLD,DE,DEU,german,['english'],True,False,False,1,False,False,group,165391.0,83160871.0,0.0019888079334811,123702.0,17441500.0,0.0070923945761545,2020.0,11,True
+2023,Lord of the Lost,turkey,germany,,,,TR,TUR,DE,DEU,german,['english'],True,False,False,1,False,False,group,1314223.0,83160871.0,0.0160708282886139,271865.0,73195345.0,0.0037142389314511,2010.0,11,False
+2023,Lord of the Lost,united kingdom,germany,,,,GB,GBR,DE,DEU,german,['english'],True,False,False,1,False,True,group,118246.0,83160871.0,0.0014218946792897,310043.0,67081000.0,0.0046219197686379,2020.0,11,False
+2023,Lord of the Lost,austria,germany,,,,AT,AUT,DE,DEU,german,['english'],True,False,False,1,False,False,group,285790.0,83160871.0,0.0034365921924988,232836.0,8916864.0,0.0261118707204685,2020.0,11,True
+2023,Lord of the Lost,bosnia and herzegovina,germany,,,,BA,BIH,DE,DEU,german,['english'],True,False,False,1,False,False,group,165187.0,83160871.0,0.0020222041039259,554.0,3524324.0,0.0001571932659993,2015.0,11,False
+2023,Lord of the Lost,denmark,germany,,,,DK,DNK,DE,DEU,german,['english'],True,False,False,1,False,False,group,28815.0,83160871.0,0.0003464970923645,37111.0,5831404.0,0.0063639905587059,2020.0,11,True
+2023,Lord of the Lost,iceland,germany,,,,IS,ISL,DE,DEU,german,['english'],True,False,False,1,False,False,group,2164.0,83160871.0,2.6021853474815097e-05,2148.0,366463.0,0.0058614375803287,2020.0,11,False
+2023,Lord of the Lost,lithuania,germany,,,,LT,LTU,DE,DEU,german,['english'],True,False,False,1,False,False,group,55291.0,83160871.0,0.0006648679761903,2090.0,2794885.0,0.0007477946319794,2020.0,11,False
+2023,Lord of the Lost,latvia,germany,,,,LV,LVA,DE,DEU,german,['english'],True,False,False,1,False,False,group,38760.0,83160871.0,0.0004660845844195,2163.0,1900449.0,0.001138152089322,2020.0,11,False
+2023,Lord of the Lost,russian federation,germany,,,,RU,RUS,DE,DEU,german,['english'],True,False,False,1,False,False,group,1198831.0,83160871.0,0.0144158062028955,141947.0,144073139.0,0.0009852426412393,2020.0,11,False
+2023,Lord of the Lost,ukraine,germany,,,,UA,UKR,DE,DEU,german,['english'],True,False,False,1,False,False,group,289743.0,83160871.0,0.0034841265671688,1099.0,44132049.0,2.490253738275329e-05,2020.0,11,False
+2023,Lord of the Lost,albania,germany,,,,AL,ALB,DE,DEU,german,['english'],True,False,False,1,False,False,group,61063.0,83160871.0,0.000734275618638,,,,,11,False
+2023,Lord of the Lost,andorra,germany,,,,AD,AND,DE,DEU,german,['english'],True,False,False,1,False,False,group,,83160871.0,,401.0,79826.0,0.0050234259514443,2005.0,11,False
+2023,Lord of the Lost,belarus,germany,,,,BY,BLR,DE,DEU,german,['english'],True,False,False,1,False,False,group,21105.0,83160871.0,0.0002583654743615,66.0,9461076.0,6.975950726957484e-06,2015.0,11,False
+2023,Lord of the Lost,monaco,germany,,,,MC,MCO,DE,DEU,german,['english'],True,False,False,1,False,False,group,,83160871.0,,,,,,11,False
+2023,Lord of the Lost,yugoslavia,germany,,,,YU,YUG,DE,DEU,german,['english'],True,False,False,1,False,False,group,,83160871.0,,,,,,11,False
+2023,Lord of the Lost,bulgaria,germany,,,,BG,BGR,DE,DEU,german,['english'],True,False,False,1,False,False,group,314911.0,83160871.0,0.0037867689000034,12588.0,6934015.0,0.0018153984379901,2020.0,11,False
+2023,Lord of the Lost,"moldova, republic of",germany,,,,MD,MDA,DE,DEU,german,['english'],True,False,False,1,False,False,group,25733.0,83160871.0,0.0003094363934692,701.0,2635130.0,0.0002660210312204,2020.0,11,False
+2023,Lord of the Lost,armenia,germany,,,,AM,ARM,DE,DEU,german,['english'],True,False,False,1,False,False,group,25512.0,83160871.0,0.0003067788936457,631.0,2805608.0,0.0002249066868928,2020.0,11,False
+2023,Lord of the Lost,czechia,germany,,,,CZ,CZE,DE,DEU,german,['english'],True,False,False,1,False,False,group,603049.0,83160871.0,0.0072515955250156,17983.0,10697858.0,0.0016809907179549,2020.0,11,True
+2023,Lord of the Lost,georgia,germany,,,,GE,GEO,DE,DEU,german,['english'],True,False,False,1,False,False,group,25387.0,83160871.0,0.0003052757828859,629.0,3722716.0,0.0001689626605951,2020.0,11,False
+2023,Lord of the Lost,montenegro,germany,,,,ME,MNE,DE,DEU,german,['english'],True,False,False,1,False,False,group,17407.0,83160871.0,0.000209317191976,1882.0,621306.0,0.0030291032116219,2020.0,11,False
+2023,Lord of the Lost,serbia,germany,,,,RS,SRB,DE,DEU,german,['english'],True,False,False,1,False,False,group,199691.0,83160871.0,0.0024012615259885,16392.0,6899126.0,0.0023759531279759,2020.0,11,False
+2023,Lord of the Lost,azerbaijan,germany,,,,AZ,AZE,DE,DEU,german,['english'],True,False,False,1,False,False,group,26690.0,83160871.0,0.0003209442094467,270.0,10093121.0,2.6750893009208945e-05,2020.0,11,False
+2023,Lord of the Lost,san marino,germany,,,,SM,SMR,DE,DEU,german,['english'],True,False,False,1,False,False,group,,83160871.0,,,,,,11,False
+2023,Lord of the Lost,italy,germany,,,,IT,ITA,DE,DEU,german,['english'],True,False,False,1,False,False,group,694514.0,83160871.0,0.0083514517302253,211223.0,59438851.0,0.0035536184910438,2020.0,11,False
+2023,Lord of the Lost,australia,germany,,,,AU,AUS,DE,DEU,german,['english'],True,False,False,1,False,True,group,15411.0,83160871.0,0.0001853155193624,124818.0,25655289.0,0.0048651956327601,2020.0,11,False
+2023,Marco Mengoni,belgium,italy,,,,BE,BEL,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,45918.0,59438851.0,0.0007725250274437,121283.0,11538604.0,0.0105110635567352,2020.0,1,False
+2023,Marco Mengoni,croatia,italy,,,,HR,HRV,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,22130.0,59438851.0,0.0003723154069717,2953.0,4047680.0,0.0007295537196616,2020.0,1,False
+2023,Marco Mengoni,cyprus,italy,,,,CY,CYP,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,440.0,59438851.0,7.402565705719984e-06,477.0,1237537.0,0.0003854430210975,2020.0,1,False
+2023,Marco Mengoni,estonia,italy,,,,EE,EST,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,1535.0,59438851.0,2.582485990518222e-05,1251.0,1329522.0,0.000940939676064,2020.0,1,False
+2023,Marco Mengoni,north macedonia,italy,,,,MK,MKD,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,68840.0,59438851.0,0.0011581650526858,36.0,2072531.0,1.7370065875974836e-05,2020.0,1,False
+2023,Marco Mengoni,finland,italy,,,,FI,FIN,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,2819.0,59438851.0,4.7426892555510536e-05,3023.0,5529543.0,0.0005466997905613,2020.0,1,False
+2023,Marco Mengoni,france,italy,,,,FR,FRA,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,128283.0,59438851.0,0.0021582348555156,325933.0,67571107.0,0.0048235557247863,2020.0,1,True
+2023,Marco Mengoni,germany,italy,,,,DE,DEU,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,211223.0,59438851.0,0.0035536184910438,694514.0,83160871.0,0.0083514517302253,2020.0,1,False
+2023,Marco Mengoni,greece,italy,,,,GR,GRC,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,17196.0,59438851.0,0.0002893057269899,6426.0,10698599.0,0.0006006393921297,2020.0,1,False
+2023,Marco Mengoni,hungary,italy,,,,HU,HUN,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,12625.0,59438851.0,0.0002078853780785,4428.0,9843028.0,0.0004498615669893,2015.0,1,False
+2023,Marco Mengoni,ireland,italy,,,,IE,IRL,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,3796.0,59438851.0,6.386395322480242e-05,9070.0,4985382.0,0.0018193189609141,2020.0,1,False
+2023,Marco Mengoni,israel,italy,,,,IL,ISR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,4107.0,59438851.0,6.909622125770903e-05,5073.0,9215100.0,0.000550509489859,2020.0,1,False
+2023,Marco Mengoni,malta,italy,,,,MT,MLT,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,1984.0,59438851.0,3.337884172761011e-05,4720.0,515332.0,0.0091591440081345,2020.0,1,False
+2023,Marco Mengoni,norway,italy,,,,NO,NOR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,1825.0,59438851.0,3.070382366577039e-05,5040.0,5379475.0,0.0009368943995464,2020.0,1,False
+2023,Marco Mengoni,poland,italy,,,,PL,POL,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,113874.0,59438851.0,0.0019158176526662,13105.0,37899070.0,0.0003457868491232,2020.0,1,False
+2023,Marco Mengoni,portugal,italy,,,,PT,PRT,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,6735.0,59438851.0,0.0001133097273364,3125.0,10297081.0,0.0003034840650471,2020.0,1,False
+2023,Marco Mengoni,romania,italy,,,,RO,ROU,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,1048862.0,59438851.0,0.0176460678891656,79752.0,19265250.0,0.004139681550979,2020.0,1,False
+2023,Marco Mengoni,slovakia,italy,,,,SK,SVK,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,11467.0,59438851.0,0.0001934463507409,2217.0,5391428.0,0.0004112083106739,2010.0,1,False
+2023,Marco Mengoni,slovenia,italy,,,,SI,SVN,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,4693.0,59438851.0,7.895509285669066e-05,4511.0,2102419.0,0.0021456236839564,2020.0,1,True
+2023,Marco Mengoni,spain,italy,,,,ES,ESP,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,35124.0,59438851.0,0.000590926631472,153583.0,47365655.0,0.0032424971215958,2020.0,1,False
+2023,Marco Mengoni,sweden,italy,,,,SE,SWE,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,6228.0,59438851.0,0.0001047799527618,13527.0,10353442.0,0.0013065220242698,2020.0,1,False
+2023,Marco Mengoni,switzerland,italy,,,,CH,CHE,IT,ITA,italian,['italian'],False,True,False,1,True,True,male,193568.0,59438851.0,0.0032565905421018,270077.0,8638167.0,0.0312655451092807,2020.0,1,True
+2023,Marco Mengoni,netherlands,italy,,,,NL,NLD,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,13214.0,59438851.0,0.0002223125073531,35908.0,17441500.0,0.0020587678812028,2020.0,1,False
+2023,Marco Mengoni,turkey,italy,,,,TR,TUR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,20888.0,59438851.0,0.0003523770274942,2825.0,73195345.0,3.85953505649847e-05,2010.0,1,False
+2023,Marco Mengoni,united kingdom,italy,,,,GB,GBR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,66500.0,59438851.0,0.0011187968623417,254054.0,67081000.0,0.0037872721038744,2020.0,1,False
+2023,Marco Mengoni,austria,italy,,,,AT,AUT,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,15672.0,59438851.0,0.0002636659312273,34205.0,8916864.0,0.0038359898726727,2020.0,1,True
+2023,Marco Mengoni,bosnia and herzegovina,italy,,,,BA,BIH,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,11317.0,59438851.0,0.0001863476296011,116.0,3524324.0,3.2914113458354e-05,2015.0,1,False
+2023,Marco Mengoni,denmark,italy,,,,DK,DNK,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,3186.0,59438851.0,5.36013053145997e-05,9887.0,5831404.0,0.0016954750519771,2020.0,1,False
+2023,Marco Mengoni,iceland,italy,,,,IS,ISL,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,204.0,59438851.0,3.4320986453792656e-06,525.0,366463.0,0.0014326139337395,2020.0,1,False
+2023,Marco Mengoni,lithuania,italy,,,,LT,LTU,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,6317.0,59438851.0,0.0001062772899159,643.0,2794885.0,0.0002300631331879,2020.0,1,False
+2023,Marco Mengoni,latvia,italy,,,,LV,LVA,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,3688.0,59438851.0,6.20469598243075e-05,328.0,1900449.0,0.0001725907930178,2020.0,1,False
+2023,Marco Mengoni,russian federation,italy,,,,RU,RUS,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,82890.0,59438851.0,0.0013945424348798,1894.0,144073139.0,1.3146100745399876e-05,2020.0,1,False
+2023,Marco Mengoni,ukraine,italy,,,,UA,UKR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,248460.0,59438851.0,0.0041800942619163,,,,,1,False
+2023,Marco Mengoni,albania,italy,,,,AL,ALB,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,486187.0,59438851.0,0.008179616392652,8344.0,2837849.0,0.0029402551016632,2020.0,1,False
+2023,Marco Mengoni,andorra,italy,,,,AD,AND,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,0.0,59438851.0,0.0,0.0,0.0,0.0,0.0,1,False
+2023,Marco Mengoni,belarus,italy,,,,BY,BLR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,31350.0,59438851.0,0.0005162143843772,24.0,9461076.0,2.5367093552572667e-06,2015.0,1,False
+2023,Marco Mengoni,monaco,italy,,,,MC,MCO,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,0.0,59438851.0,0.0,0.0,0.0,0.0,0.0,1,False
+2023,Marco Mengoni,yugoslavia,italy,,,,YU,YUG,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,0.0,59438851.0,0.0,0.0,0.0,0.0,0.0,1,False
+2023,Marco Mengoni,bulgaria,italy,,,,BG,BGR,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,61805.0,59438851.0,0.0010398081214591,3994.0,6934015.0,0.0005760010614341,2020.0,1,False
+2023,Marco Mengoni,"moldova, republic of",italy,,,,MD,MDA,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,194480.0,59438851.0,0.0032719340419282,3225.0,2635130.0,0.0012238485387817,2020.0,1,False
+2023,Marco Mengoni,armenia,italy,,,,AM,ARM,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,1847.0,59438851.0,3.1073951951056386e-05,,,,,1,False
+2023,Marco Mengoni,czechia,italy,,,,CZ,CZE,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,9536.0,59438851.0,0.0001604337876585,4893.0,10697858.0,0.0004573812813742,2020.0,1,False
+2023,Marco Mengoni,georgia,italy,,,,GE,GEO,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,15813.0,59438851.0,0.0002660381170557,16.0,3722716.0,4.29793731243533e-06,2020.0,1,False
+2023,Marco Mengoni,montenegro,italy,,,,ME,MNE,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,2240.0,59438851.0,3.7685789047301736e-05,208.0,621306.0,0.0003347786758859,2020.0,1,False
+2023,Marco Mengoni,serbia,italy,,,,RS,SRB,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,86911.0,59438851.0,0.0014621917910223,1958.0,6899126.0,0.0002838040644568,2020.0,1,False
+2023,Marco Mengoni,azerbaijan,italy,,,,AZ,AZE,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,930.0,59438851.0,1.564633205981724e-05,,,,,1,False
+2023,Marco Mengoni,san marino,italy,,,,SM,SMR,IT,ITA,italian,['italian'],False,True,False,1,True,True,male,1932.0,59438851.0,3.250399305329775e-05,4749.0,34007.0,0.1396477195871438,2020.0,1,True
+2023,Marco Mengoni,australia,italy,,,,AU,AUS,IT,ITA,italian,['italian'],False,True,False,1,True,False,male,19897.0,59438851.0,0.0003347473860152,206282.0,25655289.0,0.0080405252889569,2020.0,1,False
+2023,Blanca Paloma,belgium,spain,,,,BE,BEL,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,51896.0,47365655.0,0.0010956462018734,49754.0,11538604.0,0.0043119600949993,2020.0,52,False
+2023,Blanca Paloma,croatia,spain,,,,HR,HRV,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,2272.0,47365655.0,4.796724546509491e-05,175.0,4047680.0,4.323464305478694e-05,2020.0,52,False
+2023,Blanca Paloma,cyprus,spain,,,,CY,CYP,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,493.0,47365655.0,1.0408385569670685e-05,153.0,1237537.0,0.0001236326671444,2020.0,52,False
+2023,Blanca Paloma,estonia,spain,,,,EE,EST,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,2529.0,47365655.0,5.3393117861454674e-05,730.0,1329522.0,0.0005490695152092,2020.0,52,False
+2023,Blanca Paloma,north macedonia,spain,,,,MK,MKD,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,845.0,47365655.0,1.7839930641727638e-05,,,,,52,False
+2023,Blanca Paloma,finland,spain,,,,FI,FIN,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,13200.0,47365655.0,0.0002786829402021,3046.0,5529543.0,0.0005508592663082,2020.0,52,False
+2023,Blanca Paloma,france,spain,,,,FR,FRA,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,221373.0,47365655.0,0.0046737029182854,282397.0,67571107.0,0.00417925667549,2020.0,52,True
+2023,Blanca Paloma,germany,spain,,,,DE,DEU,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,200659.0,47365655.0,0.0042363818256076,186074.0,83160871.0,0.0022375186522517,2020.0,52,False
+2023,Blanca Paloma,greece,spain,,,,GR,GRC,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,5373.0,47365655.0,0.0001134366240686,1202.0,10698599.0,0.0001123511592499,2020.0,52,False
+2023,Blanca Paloma,hungary,spain,,,,HU,HUN,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,9297.0,47365655.0,0.0002001729708054,1788.0,9843028.0,0.0001816514186488,2015.0,52,False
+2023,Blanca Paloma,ireland,spain,,,,IE,IRL,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,16100.0,47365655.0,0.0003399087376707,8886.0,4985382.0,0.0017824110569661,2020.0,52,False
+2023,Blanca Paloma,israel,spain,,,,IL,ISR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,3856.0,47365655.0,8.140919828935121e-05,1833.0,9215100.0,0.0001989126542305,2020.0,52,False
+2023,Blanca Paloma,malta,spain,,,,MT,MLT,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,420.0,47365655.0,8.867184460977051e-06,453.0,515332.0,0.0008790449651874,2020.0,52,False
+2023,Blanca Paloma,norway,spain,,,,NO,NOR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,15024.0,47365655.0,0.0003171918555755,7350.0,5379475.0,0.0013663043326718,2020.0,52,False
+2023,Blanca Paloma,poland,spain,,,,PL,POL,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,63466.0,47365655.0,0.0013399160214294,6357.0,37899070.0,0.0001677349866368,2020.0,52,False
+2023,Blanca Paloma,portugal,spain,,,,PT,PRT,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,108063.0,47365655.0,0.0022814632247775,18175.0,10297081.0,0.0017650633223143,2020.0,52,True
+2023,Blanca Paloma,romania,spain,,,,RO,ROU,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,613336.0,47365655.0,0.0129489605918043,61861.0,19265250.0,0.0032110146507312,2020.0,52,False
+2023,Blanca Paloma,slovakia,spain,,,,SK,SVK,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,7312.0,47365655.0,0.0001569877014348,676.0,5391428.0,0.0001253842210264,2010.0,52,False
+2023,Blanca Paloma,slovenia,spain,,,,SI,SVN,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,1382.0,47365655.0,2.917725934540544e-05,204.0,2102419.0,9.703108657218184e-05,2020.0,52,False
+2023,Blanca Paloma,sweden,spain,,,,SE,SWE,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,21562.0,47365655.0,0.0004552243603513,12579.0,10353442.0,0.0012149582718481,2020.0,52,False
+2023,Blanca Paloma,switzerland,spain,,,,CH,CHE,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,65924.0,47365655.0,0.0013918101628701,68909.0,8638167.0,0.0079772711039274,2020.0,52,False
+2023,Blanca Paloma,netherlands,spain,,,,NL,NLD,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,51778.0,47365655.0,0.0010931549452868,31415.0,17441500.0,0.0018011638907204,2020.0,52,False
+2023,Blanca Paloma,turkey,spain,,,,TR,TUR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,3276.0,47365655.0,7.03352994940818e-05,1201.0,73195345.0,1.640814726674217e-05,2010.0,52,False
+2023,Blanca Paloma,united kingdom,spain,,,,GB,GBR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,303193.0,47365655.0,0.0064011149006595,150892.0,67081000.0,0.0022493999791297,2020.0,52,False
+2023,Blanca Paloma,austria,spain,,,,AT,AUT,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,11936.0,47365655.0,0.0002519969374433,7575.0,8916864.0,0.000849513909823,2020.0,52,False
+2023,Blanca Paloma,bosnia and herzegovina,spain,,,,BA,BIH,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,2119.0,47365655.0,4.562402120433981e-05,,,,,52,False
+2023,Blanca Paloma,denmark,spain,,,,DK,DNK,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,11659.0,47365655.0,0.0002461488181679,7934.0,5831404.0,0.0013605642826324,2020.0,52,False
+2023,Blanca Paloma,iceland,spain,,,,IS,ISL,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,1513.0,47365655.0,3.194297640347209e-05,991.0,366463.0,0.0027042293492112,2020.0,52,False
+2023,Blanca Paloma,lithuania,spain,,,,LT,LTU,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,16492.0,47365655.0,0.000348184776501,833.0,2794885.0,0.0002980444633679,2020.0,52,False
+2023,Blanca Paloma,latvia,spain,,,,LV,LVA,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,5381.0,47365655.0,0.0001136055228202,220.0,1900449.0,0.000115762117268,2020.0,52,False
+2023,Blanca Paloma,russian federation,spain,,,,RU,RUS,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,96126.0,47365655.0,0.0020294451749901,1392.0,144073139.0,9.661759365151335e-06,2020.0,52,False
+2023,Blanca Paloma,ukraine,spain,,,,UA,UKR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,106373.0,47365655.0,0.002245783363494,,,,,52,False
+2023,Blanca Paloma,albania,spain,,,,AL,ALB,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,2615.0,47365655.0,5.5208779441559504e-05,,,,,52,False
+2023,Blanca Paloma,andorra,spain,,,,AD,AND,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,4135.0,47365655.0,9.472396668694392e-05,28450.0,79826.0,0.3564001703705559,2005.0,52,True
+2023,Blanca Paloma,belarus,spain,,,,BY,BLR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,3886.0,47365655.0,8.366915828223903e-05,35.0,9461076.0,3.6993678097501808e-06,2015.0,52,False
+2023,Blanca Paloma,monaco,spain,,,,MC,MCO,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,182.0,47365655.0,4.16922900532619e-06,,,,,52,False
+2023,Blanca Paloma,yugoslavia,spain,,,,YU,YUG,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,,47365655.0,,,,,,52,False
+2023,Blanca Paloma,bulgaria,spain,,,,BG,BGR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,119741.0,47365655.0,0.0025280131774806,7450.0,6934015.0,0.0010744135973169,2020.0,52,False
+2023,Blanca Paloma,"moldova, republic of",spain,,,,MD,MDA,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,21738.0,47365655.0,0.0004589401328874,,,,,52,False
+2023,Blanca Paloma,armenia,spain,,,,AM,ARM,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,12845.0,47365655.0,0.0002711880580982,,,,,52,False
+2023,Blanca Paloma,czechia,spain,,,,CZ,CZE,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,11539.0,47365655.0,0.0002436153368933,1524.0,10697858.0,0.0001424584248547,2020.0,52,False
+2023,Blanca Paloma,georgia,spain,,,,GE,GEO,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,11824.0,47365655.0,0.0002496323549204,17.0,3722716.0,4.566558394462538e-06,2020.0,52,False
+2023,Blanca Paloma,montenegro,spain,,,,ME,MNE,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,225.0,47365655.0,4.750277389809135e-06,,,,,52,False
+2023,Blanca Paloma,serbia,spain,,,,RS,SRB,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,5264.0,47365655.0,0.0001111353785775,159.0,6899126.0,2.304639747121592e-05,2020.0,52,False
+2023,Blanca Paloma,azerbaijan,spain,,,,AZ,AZE,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,831.0,47365655.0,1.754435782636174e-05,,,,,52,False
+2023,Blanca Paloma,san marino,spain,,,,SM,SMR,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,48.0,47365655.0,1.0133925098259488e-06,,,,,52,False
+2023,Blanca Paloma,italy,spain,,,,IT,ITA,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,153583.0,47365655.0,0.0032424971215958,35124.0,59438851.0,0.000590926631472,2020.0,52,False
+2023,Blanca Paloma,australia,spain,,,,AU,AUS,ES,ESP,spanish,['spanish'],False,True,False,1,True,False,female,8606.0,47365655.0,0.0001816928320742,19947.0,25655289.0,0.0007775004990199,2020.0,52,False
+2023,Tvorchi,belgium,ukraine,,,,BE,BEL,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,2648.0,11538604.0,0.0002294904998906,2020.0,5,False
+2023,Tvorchi,croatia,ukraine,,,,HR,HRV,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,711.0,4047680.0,0.000175656178354,2020.0,5,False
+2023,Tvorchi,cyprus,ukraine,,,,CY,CYP,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,3257.0,1237537.0,0.0026318405025465,2020.0,5,False
+2023,Tvorchi,estonia,ukraine,,,,EE,EST,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,10392.0,,0.0002354751305564,24170.0,1329522.0,0.0181794660035712,2020.0,5,False
+2023,Tvorchi,north macedonia,ukraine,,,,MK,MKD,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,63.0,2072531.0,3.039761528295596e-05,2020.0,5,False
+2023,Tvorchi,finland,ukraine,,,,FI,FIN,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,2851.0,5529543.0,0.0005155941458453,2020.0,5,False
+2023,Tvorchi,france,ukraine,,,,FR,FRA,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,18166.0,67571107.0,0.0002688427170506,2020.0,5,False
+2023,Tvorchi,germany,ukraine,,,,DE,DEU,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,1099.0,,2.490253738275329e-05,289743.0,83160871.0,0.0034841265671688,2020.0,5,False
+2023,Tvorchi,greece,ukraine,,,,GR,GRC,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,19846.0,10698599.0,0.0018550092399948,2020.0,5,False
+2023,Tvorchi,hungary,ukraine,,,,HU,HUN,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,39189.0,9843028.0,0.0039813967815594,2015.0,5,True
+2023,Tvorchi,ireland,ukraine,,,,IE,IRL,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,True,group,,,,5232.0,4985382.0,0.0010494682253034,2020.0,5,False
+2023,Tvorchi,israel,ukraine,,,,IL,ISR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,3813.0,,8.639979530522138e-05,131205.0,9215100.0,0.0142380440798255,2020.0,5,False
+2023,Tvorchi,malta,ukraine,,,,MT,MLT,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,True,group,,,,868.0,515332.0,0.001684351059123,2020.0,5,False
+2023,Tvorchi,norway,ukraine,,,,NO,NOR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,5693.0,5379475.0,0.0010582817096463,2020.0,5,False
+2023,Tvorchi,poland,ukraine,,,,PL,POL,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,3128.0,,7.087819557165813e-05,272594.0,37899070.0,0.0071926303204801,2020.0,5,True
+2023,Tvorchi,portugal,ukraine,,,,PT,PRT,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,53384.0,10297081.0,0.005184381865113,2020.0,5,False
+2023,Tvorchi,romania,ukraine,,,,RO,ROU,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,43363.0,19265250.0,0.0022508402434435,2020.0,5,True
+2023,Tvorchi,slovakia,ukraine,,,,SK,SVK,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,8258.0,5391428.0,0.0015316906763848,2010.0,5,True
+2023,Tvorchi,slovenia,ukraine,,,,SI,SVN,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,2806.0,2102419.0,0.0013346530829487,2020.0,5,False
+2023,Tvorchi,spain,ukraine,,,,ES,ESP,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,106373.0,47365655.0,0.002245783363494,2020.0,5,False
+2023,Tvorchi,sweden,ukraine,,,,SE,SWE,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,10176.0,10353442.0,0.0009828615449818,2020.0,5,False
+2023,Tvorchi,switzerland,ukraine,,,,CH,CHE,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,10631.0,8638167.0,0.0012307009114317,2020.0,5,False
+2023,Tvorchi,netherlands,ukraine,,,,NL,NLD,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,3022.0,17441500.0,0.0001732649141415,2020.0,5,False
+2023,Tvorchi,turkey,ukraine,,,,TR,TUR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,1351.0,,2.9452325612093337e-05,4153.0,73195345.0,5.673858084827662e-05,2010.0,5,False
+2023,Tvorchi,united kingdom,ukraine,,,,GB,GBR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,True,group,,,,22119.0,67081000.0,0.00032973569267,2020.0,5,False
+2023,Tvorchi,austria,ukraine,,,,AT,AUT,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,14046.0,8916864.0,0.0015752174755609,2020.0,5,False
+2023,Tvorchi,bosnia and herzegovina,ukraine,,,,BA,BIH,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,,,,,5,False
+2023,Tvorchi,denmark,ukraine,,,,DK,DNK,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,11400.0,5831404.0,0.0019549322941782,2020.0,5,False
+2023,Tvorchi,iceland,ukraine,,,,IS,ISL,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,437.0,366463.0,0.0011924805505603,2020.0,5,False
+2023,Tvorchi,lithuania,ukraine,,,,LT,LTU,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,24825.0,,0.0005625163699061,20566.0,2794885.0,0.007358442297268,2020.0,5,False
+2023,Tvorchi,latvia,ukraine,,,,LV,LVA,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,19821.0,,0.0004491293844072,32262.0,1900449.0,0.0169759883059213,2020.0,5,False
+2023,Tvorchi,russian federation,ukraine,,,,RU,RUS,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,3330586.0,,0.0754686463798678,3268263.0,144073139.0,0.0226847490287554,2020.0,5,True
+2023,Tvorchi,albania,ukraine,,,,AL,ALB,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,,,,,5,False
+2023,Tvorchi,andorra,ukraine,,,,AD,AND,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,,,,,5,False
+2023,Tvorchi,belarus,ukraine,,,,BY,BLR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,245534.0,,0.0054376977508721,225734.0,9461076.0,0.0238592312333184,2015.0,5,True
+2023,Tvorchi,monaco,ukraine,,,,MC,MCO,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,,,,,5,False
+2023,Tvorchi,yugoslavia,ukraine,,,,YU,YUG,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,,,,,5,False
+2023,Tvorchi,bulgaria,ukraine,,,,BG,BGR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,1760.0,,3.988031464389972e-05,11275.0,6934015.0,0.0016260420549998,2020.0,5,False
+2023,Tvorchi,"moldova, republic of",ukraine,,,,MD,MDA,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,152249.0,,0.0034498511501244,42436.0,2635130.0,0.016103949330773,2020.0,5,True
+2023,Tvorchi,armenia,ukraine,,,,AM,ARM,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,48097.0,,0.0010898428939929,2452.0,2805608.0,0.0008739638609527,2020.0,5,False
+2023,Tvorchi,czechia,ukraine,,,,CZ,CZE,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,131316.0,10697858.0,0.0122749806550058,2020.0,5,False
+2023,Tvorchi,georgia,ukraine,,,,GE,GEO,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,65475.0,,0.0014836156825621,12203.0,3722716.0,0.003277983063978,2020.0,5,False
+2023,Tvorchi,montenegro,ukraine,,,,ME,MNE,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,140.0,621306.0,0.000225331801077,2020.0,5,False
+2023,Tvorchi,serbia,ukraine,,,,RS,SRB,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,1297.0,6899126.0,0.0001879948271708,2020.0,5,False
+2023,Tvorchi,azerbaijan,ukraine,,,,AZ,AZE,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,83674.0,,0.0018959917315418,2687.0,10093121.0,0.0002662209241323,2020.0,5,False
+2023,Tvorchi,san marino,ukraine,,,,SM,SMR,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,68.0,34007.0,0.0019995883200517,2020.0,5,False
+2023,Tvorchi,italy,ukraine,,,,IT,ITA,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,False,group,,,,248460.0,59438851.0,0.0041800942619163,2020.0,5,False
+2023,Tvorchi,australia,ukraine,,,,AU,AUS,UA,UKR,ukrainian,"['english', 'ukrainian']",True,True,True,2,True,True,group,,,,18568.0,25655289.0,0.0007237493991979,2020.0,5,False
+2023,Mae Muller,belgium,united kingdom,,,,BE,BEL,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,31425.0,67081000.0,0.0004684634993515,22472.0,11538604.0,0.0019475492875914,2020.0,24,False
+2023,Mae Muller,croatia,united kingdom,,,,HR,HRV,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,8610.0,67081000.0,0.0001283522905144,628.0,4047680.0,0.0001551506047908,2020.0,24,False
+2023,Mae Muller,cyprus,united kingdom,,,,CY,CYP,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,61053.0,67081000.0,0.000910138489289,35876.0,1237537.0,0.0289898403037646,2020.0,24,False
+2023,Mae Muller,estonia,united kingdom,,,,EE,EST,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,12967.0,67081000.0,0.000193303618014,1297.0,1329522.0,0.0009755385770224,2020.0,24,False
+2023,Mae Muller,north macedonia,united kingdom,,,,MK,MKD,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,2776.0,67081000.0,4.138280586157034e-05,,,,,24,False
+2023,Mae Muller,finland,united kingdom,,,,FI,FIN,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,20999.0,67081000.0,0.0003130394597576,6460.0,5529543.0,0.0011682701445671,2020.0,24,False
+2023,Mae Muller,france,united kingdom,,,,FR,FRA,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,170270.0,67081000.0,0.0025382746232167,169565.0,67571107.0,0.0025094305469939,2020.0,24,False
+2023,Mae Muller,germany,united kingdom,,,,DE,DEU,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,310043.0,67081000.0,0.0046219197686379,118246.0,83160871.0,0.0014218946792897,2020.0,24,False
+2023,Mae Muller,greece,united kingdom,,,,GR,GRC,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,75441.0,67081000.0,0.0011246254528107,18033.0,10698599.0,0.0016855477992959,2020.0,24,False
+2023,Mae Muller,hungary,united kingdom,,,,HU,HUN,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,80777.0,67081000.0,0.0012405050729373,7414.0,9843028.0,0.0007532234999229,2015.0,24,False
+2023,Mae Muller,ireland,united kingdom,,,,IE,IRL,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,True,female,370151.0,67081000.0,0.0055179708114071,305197.0,4985382.0,0.0612183780500671,2020.0,24,True
+2023,Mae Muller,israel,united kingdom,,,,IL,ISR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,19797.0,67081000.0,0.0002951208240783,21235.0,9215100.0,0.0023043700014107,2020.0,24,False
+2023,Mae Muller,malta,united kingdom,,,,MT,MLT,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,True,female,29600.0,67081000.0,0.0004412575841147,31494.0,515332.0,0.0611140002949554,2020.0,24,False
+2023,Mae Muller,norway,united kingdom,,,,NO,NOR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,20224.0,67081000.0,0.0003014862628762,19940.0,5379475.0,0.0037066814140785,2020.0,24,False
+2023,Mae Muller,poland,united kingdom,,,,PL,POL,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,835975.0,67081000.0,0.0124621725973077,45577.0,37899070.0,0.0012025888761914,2020.0,24,False
+2023,Mae Muller,portugal,united kingdom,,,,PT,PRT,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,141916.0,67081000.0,0.002115591598217,21089.0,10297081.0,0.0020480561432895,2020.0,24,False
+2023,Mae Muller,romania,united kingdom,,,,RO,ROU,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,393569.0,67081000.0,0.0058670711527854,31593.0,19265250.0,0.0016398956670689,2020.0,24,False
+2023,Mae Muller,slovakia,united kingdom,,,,SK,SVK,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,33115.0,67081000.0,0.0005275914894864,4037.0,5391428.0,0.0007487812134373,2010.0,24,False
+2023,Mae Muller,slovenia,united kingdom,,,,SI,SVN,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,3668.0,67081000.0,5.46801627882709e-05,740.0,2102419.0,0.0003519755101147,2020.0,24,False
+2023,Mae Muller,spain,united kingdom,,,,ES,ESP,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,150892.0,67081000.0,0.0022493999791297,303193.0,47365655.0,0.0064011149006595,2020.0,24,False
+2023,Mae Muller,sweden,united kingdom,,,,SE,SWE,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,35824.0,67081000.0,0.0005340409355853,29715.0,10353442.0,0.0028700600244826,2020.0,24,False
+2023,Mae Muller,switzerland,united kingdom,,,,CH,CHE,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,23649.0,67081000.0,0.0003525439394165,45951.0,8638167.0,0.0053195313311261,2020.0,24,False
+2023,Mae Muller,netherlands,united kingdom,,,,NL,NLD,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,81375.0,67081000.0,0.0012130856725451,57243.0,17441500.0,0.0032819998279964,2020.0,24,False
+2023,Mae Muller,turkey,united kingdom,,,,TR,TUR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,71951.0,67081000.0,0.001146330522725,18797.0,73195345.0,0.0002568059485203,2010.0,24,False
+2023,Mae Muller,austria,united kingdom,,,,AT,AUT,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,21163.0,67081000.0,0.0003154842652912,11721.0,8916864.0,0.0013144755824469,2020.0,24,False
+2023,Mae Muller,bosnia and herzegovina,united kingdom,,,,BA,BIH,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,8486.0,67081000.0,0.0001303208345066,,,,,24,False
+2023,Mae Muller,denmark,united kingdom,,,,DK,DNK,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,26960.0,67081000.0,0.0004019021779639,21428.0,5831404.0,0.0036745867718991,2020.0,24,False
+2023,Mae Muller,iceland,united kingdom,,,,IS,ISL,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,2370.0,67081000.0,3.533042143080753e-05,1857.0,366463.0,0.0050673601427702,2020.0,24,False
+2023,Mae Muller,lithuania,united kingdom,,,,LT,LTU,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,190342.0,67081000.0,0.0028374949687691,6620.0,2794885.0,0.0023686126620594,2020.0,24,False
+2023,Mae Muller,latvia,united kingdom,,,,LV,LVA,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,86007.0,67081000.0,0.0012821365215187,3712.0,1900449.0,0.0019532226331777,2020.0,24,False
+2023,Mae Muller,russian federation,united kingdom,,,,RU,RUS,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,36203.0,67081000.0,0.0005396908215441,1739.0,144073139.0,1.2070258287355008e-05,2020.0,24,False
+2023,Mae Muller,ukraine,united kingdom,,,,UA,UKR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,22119.0,67081000.0,0.00032973569267,,,,,24,False
+2023,Mae Muller,albania,united kingdom,,,,AL,ALB,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,10458.0,67081000.0,0.0001559010748199,,,,,24,False
+2023,Mae Muller,andorra,united kingdom,,,,AD,AND,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,39.0,67081000.0,6.456824719691855e-07,1085.0,79826.0,0.0135920627364517,2005.0,24,False
+2023,Mae Muller,belarus,united kingdom,,,,BY,BLR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,3222.0,67081000.0,4.948075993171532e-05,461.0,9461076.0,4.872595886556666e-05,2015.0,24,False
+2023,Mae Muller,monaco,united kingdom,,,,MC,MCO,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,287.0,67081000.0,4.7515607552604165e-06,,,,,24,False
+2023,Mae Muller,yugoslavia,united kingdom,,,,YU,YUG,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,,67081000.0,,,,,,24,False
+2023,Mae Muller,bulgaria,united kingdom,,,,BG,BGR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,103196.0,67081000.0,0.0015383789746724,11981.0,6934015.0,0.001727858967712,2020.0,24,False
+2023,Mae Muller,"moldova, republic of",united kingdom,,,,MD,MDA,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,2370.0,67081000.0,3.533042143080753e-05,,,,,24,False
+2023,Mae Muller,armenia,united kingdom,,,,AM,ARM,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,1477.0,67081000.0,2.2018157153292287e-05,,,,,24,False
+2023,Mae Muller,czechia,united kingdom,,,,CZ,CZE,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,45578.0,67081000.0,0.0006794472354317,6410.0,10697858.0,0.0005991853696319,2020.0,24,False
+2023,Mae Muller,georgia,united kingdom,,,,GE,GEO,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,2427.0,67081000.0,3.618014042724467e-05,33.0,3722716.0,8.864495706897868e-06,2020.0,24,False
+2023,Mae Muller,montenegro,united kingdom,,,,ME,MNE,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,1162.0,67081000.0,1.732234164666597e-05,102.0,621306.0,0.0001641703122133,2020.0,24,False
+2023,Mae Muller,serbia,united kingdom,,,,RS,SRB,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,9343.0,67081000.0,0.0001392793786616,658.0,6899126.0,9.537439959786212e-05,2020.0,24,False
+2023,Mae Muller,azerbaijan,united kingdom,,,,AZ,AZE,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,2271.0,67081000.0,3.3854593700153545e-05,,,,,24,False
+2023,Mae Muller,san marino,united kingdom,,,,SM,SMR,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,,67081000.0,,,,,,24,False
+2023,Mae Muller,italy,united kingdom,,,,IT,ITA,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,False,female,254054.0,67081000.0,0.0037872721038744,66500.0,59438851.0,0.0011187968623417,2020.0,24,False
+2023,Mae Muller,australia,united kingdom,,,,AU,AUS,GB,GBR,none english has de facto status,['english'],True,False,False,1,True,True,female,140235.0,67081000.0,0.0020905323414975,1285149.0,25655289.0,0.0500929457469763,2020.0,24,False
