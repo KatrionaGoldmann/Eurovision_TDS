@@ -1,2 +1,3 @@
 # Eurovision_TDS
-scripts for Eurovision TDS
+
+~scripts~ notebooks for Eurovision TDS
