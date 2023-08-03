@@ -1,4 +1,5 @@
 aiohttp==3.8.4
+adjustText==0.8
 matplotlib==3.7.1
 openpyxl==3.1.2
 pandas==2.0.1
